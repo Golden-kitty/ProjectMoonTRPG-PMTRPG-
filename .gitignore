@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+
+# Build / outputs
+output/
+
+# Local editor
+.vscode/
+.idea/
+.obsidian/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore tool binaries, but keep docs
+tools/**
+!tools/README.md
+
+# Editor/IDE
+.obsidian/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Conversion intermediates / artifacts
+temp_html/
+check_report.txt
+output/
+
+# Rendered PDF page images (large)
+originfab/pdf/pages*/
+originfab/pdf/pages_small/
+
+# Local tools (keep in workspace, usually don't version)
+tools/**
+!tools/README.md
+
