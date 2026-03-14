@@ -4,6 +4,7 @@ __pycache__/
 
 # Build / outputs
 output/
+site/
 
 # Local editor
 .vscode/
@@ -37,6 +38,7 @@ __pycache__/
 temp_html/
 check_report.txt
 output/
+site/
 
 # Rendered PDF page images (large)
 originfab/pdf/pages*/
