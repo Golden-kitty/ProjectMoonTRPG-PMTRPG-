@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - hotFix
   workflow_dispatch:
 
 permissions:

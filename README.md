@@ -30,7 +30,7 @@
 - `scripts/generate_mkdocs_config.py` 会基于 `docs/PDF章节页码映射.md` 生成 `mkdocs.yml`
 - `scripts/mkdocs_hooks.py` 会在渲染前修正指向仓库根目录 `assets/` 的相对路径，并在构建后把 `assets/` 复制到 `site/assets/`
 - 公开站点默认不包含治理 / 审计文档
-- GitHub Actions 会在 `main` 分支推送后自动部署到 GitHub Pages
+- GitHub Actions 会在 `main` 或 `hotFix` 分支推送后自动部署到 GitHub Pages
 
 ## GitHub Pages 发布
 
@@ -49,7 +49,7 @@
 
 ### 触发方式
 
-- 自动触发：当前工作流只监听 `main` 分支的 `push`
+- 自动触发：当前工作流监听 `main` 与 `hotFix` 分支的 `push`
 - 手动触发：可在 GitHub 的 `Actions` 页面手动运行 `deploy-site`
 - 如果仓库长期不使用 `main` 作为发布分支，需要同步修改 `.github/workflows/deploy-site.yml` 中的 `on.push.branches`
 
