@@ -1,0 +1,3 @@
+# Unified local environment: site build + interactive visualization
+-r requirements-site.txt
+-r requirements-viz.txt

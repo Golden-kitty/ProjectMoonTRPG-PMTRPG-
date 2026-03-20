@@ -48,3 +48,13 @@ originfab/pdf/pages_small/
 tools/**
 !tools/README.md
 
+.cursor/
+Untitled*.base
+.venv/
+.ipynb_checkpoints/
+notebooks/*.html
+notebooks/*.png
+notebooks/*.executed.ipynb
+notebooks/*_assets/
+notebooks/*_combo/
+originFab/*.xlsx
