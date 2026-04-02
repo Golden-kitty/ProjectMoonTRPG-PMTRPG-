@@ -1,0 +1,37 @@
+schema: spec-driven
+
+context: |
+  项目：PMTRPG 文档仓库（Markdown + MkDocs + GitHub Pages）
+  每次开启新 change 前，必须重新阅读：
+  - README.md
+  - docs/project-memory.md
+  - docs/project-brief.md
+  - openspec/project.md
+
+  当前阶段约束：
+  - docs/ 是正文主来源
+  - originFab/ 只作参考源，不作日常编辑目录
+  - 站点工作流采用“在线站点优先”
+  - 需要证据时，优先提供 diff、脚本输出和人工抽查记录
+
+rules:
+  proposal:
+    - 一个 proposal 只解决一个清晰目标
+    - 必须说明 Goal、OutOfScope、Provides、AcceptanceChecks
+    - 若未知项会改变目录落点、映射、验收或脚本策略，先澄清再进入设计
+
+  design:
+    - 必须写清 EditableAreas 与 ForbiddenAreas
+    - 必须标明与现有 docs/tasks 或 docs/acceptance 的关系
+    - 未关闭会改变实现方式的 Unknowns 前，不得声称 apply-ready
+
+  tasks:
+    - 每条任务必须声明 allowed_files
+    - 每条任务必须声明 forbidden_files
+    - 每条任务必须绑定 requirement、acceptance 或验证动作
+    - 未完成当前任务验证前，不得继续后续任务
+
+  spec:
+    - 必须包含 Purpose / Requirements / Scenarios / Invariants / Non-goals
+    - Requirements 中每条需求必须有唯一编号
+    - spec 中不得写具体实现代码

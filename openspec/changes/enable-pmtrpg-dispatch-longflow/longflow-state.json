@@ -1,0 +1,15 @@
+{
+  "change_id": "enable-pmtrpg-dispatch-longflow",
+  "mode": "longflow",
+  "status": "completed",
+  "current_phase": "verification",
+  "current_task": "done",
+  "last_commit": "",
+  "last_validation": {
+    "command": ".\\openspec\\dispatch-launcher.ps1 -ChangeId \"enable-pmtrpg-dispatch-longflow\" -DryRun && .\\openspec\\longflow-launcher.ps1 -ChangeId \"enable-pmtrpg-dispatch-longflow\" -DryRun",
+    "result": "passed"
+  },
+  "heartbeat_at": "2026-04-03T00:00:00Z",
+  "next_action": "No further action required. The workflow baseline and launcher DryRun checks are complete.",
+  "resume_prompt": "Switch to Agent mode only if you need to review openspec/changes/enable-pmtrpg-dispatch-longflow/longflow.md."
+}

@@ -17,6 +17,7 @@
 - `originFab/`：原始 PDF / CHM / 表格材料
 - `assets/`：导入后的图片资源与 PDF 对照图
 - `scripts/`：导入、清洗、映射与站点构建脚本
+- `openspec/`：面向 Agent 协作的 change / dispatch / longflow 工作流基线
 
 ## 参考材料
 
@@ -28,3 +29,5 @@
 
 - `IMPORT_GUIDE.md`：WinCHM 导出导入说明
 - `WORKFLOW_GUIDE.md`：站点构建、GitHub Pages 发布、本地环境说明
+- `openspec/project.md`：OpenSpec 执行入口
+- `docs/engineering/OPENSPEC_WORKFLOW.md`：PMTRPG 中的 dispatch / longflow 使用说明
