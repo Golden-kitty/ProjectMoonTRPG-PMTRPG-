@@ -8,6 +8,32 @@
 - 图片素材以仓库根目录 `assets/` 为准
 - WinCHM 导入继续遵循 `IMPORT_GUIDE.md`
 - 当前构建策略为“在线站点优先”，后续再复用同一导航顺序接入 `CHM + Word`
+- 如需多会话协作或断线恢复，可使用 `openspec/` 下的 `dispatch` / `longflow` 工作流
+
+## OpenSpec 协作工作流
+
+适用场景：
+
+- 需要把一个 change 分发给多个子会话并行处理
+- 需要让一个会话串行推进同一个 change，并在中断后恢复
+
+入口文件：
+
+- `openspec/project.md`：OpenSpec 执行入口
+- `docs/engineering/OPENSPEC_WORKFLOW.md`：PMTRPG 适配说明
+
+常用命令：
+
+1. dispatch 演练：
+   `.\openspec\dispatch-launcher.ps1 -ChangeId "enable-pmtrpg-dispatch-longflow" -DryRun`
+2. longflow 演练：
+   `.\openspec\longflow-launcher.ps1 -ChangeId "enable-pmtrpg-dispatch-longflow" -DryRun`
+
+补充说明：
+
+- `dispatch` 适合把当前 change 的子任务拆给多个子会话
+- `longflow` 适合由一个会话连续完成当前 change，并通过 `longflow-state.json` 恢复
+- 两种模式不能同时作用于同一个 change
 
 ## 本地环境
 
