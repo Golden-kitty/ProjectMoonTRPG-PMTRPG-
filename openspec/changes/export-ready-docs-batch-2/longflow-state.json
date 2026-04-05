@@ -1,0 +1,15 @@
+{
+  "change_id": "export-ready-docs-batch-2",
+  "mode": "longflow",
+  "status": "completed",
+  "current_phase": "verification",
+  "current_task": "done",
+  "last_commit": "",
+  "last_validation": {
+    "command": "python scripts/audit_export_readiness.py && python scripts/export_sample_docs.py --format pdf && python scripts/export_sample_docs.py --format chm --compile-chm && python scripts/export_sample_docs.py --format all --compile-chm --batch-name batch-a-core-01 --file-list openspec/changes/export-ready-docs-batch-2/batch-a-core-01.txt && python scripts/build_site.py build",
+    "result": "passed_with_real_chm_and_batch_a_core_01"
+  },
+  "heartbeat_at": "2026-04-03T02:45:00Z",
+  "next_action": "Start the next batch from the remaining 核心规则 high-density pages, prioritizing 心灵之光 and 购买项, and keep using export-stub-page-policy.md plus batch export manifests.",
+  "resume_prompt": "Switch to Agent mode and continue export-ready-docs-batch-2 only if you are starting the next A-bucket batch or filling Need Overview stub pages."
+}

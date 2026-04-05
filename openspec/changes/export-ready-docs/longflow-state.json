@@ -1,0 +1,15 @@
+{
+  "change_id": "export-ready-docs",
+  "mode": "longflow",
+  "status": "completed",
+  "current_phase": "verification",
+  "current_task": "done",
+  "last_commit": "",
+  "last_validation": {
+    "command": "python scripts/audit_export_readiness.py && python scripts/export_sample_docs.py --format pdf && python scripts/export_sample_docs.py --format chm --compile-chm && python scripts/build_site.py build",
+    "result": "passed_with_missing_hhc"
+  },
+  "heartbeat_at": "2026-04-02T17:30:00Z",
+  "next_action": "If a compiled CHM artifact is required, install HTML Help Workshop (`hhc`) and rerun the CHM sample export. Otherwise use the recorded PDF sample and CHM project evidence as the current export-ready baseline.",
+  "resume_prompt": "Switch to Agent mode only if you need to continue export-ready-docs with a real CHM compiler or expand the next sample-fix batch."
+}
