@@ -46,9 +46,8 @@
 依赖说明：
 
 - `requirements-site.txt`：仅站点构建依赖
-- `requirements-export.txt`：仅导出样本验证依赖
 - `requirements-viz.txt`：仅可视化依赖
-- `requirements-dev.txt`：同时安装站点构建、导出样本验证与可视化依赖
+- `requirements-dev.txt`：同时安装站点构建与可视化依赖
 
 ## 站点构建
 
@@ -65,32 +64,6 @@
 - `scripts/mkdocs_hooks.py` 会在渲染前修正指向仓库根目录 `assets/` 的相对路径，并在构建后将 `assets/` 复制到 `site/assets/`
 - 构建完成后会自动从 `PM_TRPG.html` 生成 `site/index.html`，用于 GitHub Pages 根路径访问
 - 公开站点默认不包含治理 / 审计文档
-
-## 导出就绪样本验证
-
-当目标从“站点可用”推进到“PDF / CHM 可导出”时，不应只依赖 `mkdocs build`。
-
-推荐顺序：
-
-1. 生成导出审计：
-   `python scripts/audit_export_readiness.py`
-2. 安装导出样本依赖：
-   `python -m pip install -r requirements-export.txt`
-3. 运行 PDF 样本导出：
-   `python scripts/export_sample_docs.py --format pdf`
-4. 运行 CHM 样本导出：
-   `python scripts/export_sample_docs.py --format chm --compile-chm`
-5. 如需按批次导出，显式传入文件列表与批次名，例如：
-   `python scripts/export_sample_docs.py --format all --batch-name batch-a-core-01 --files "核心规则/创建角色/战斗配置/战技与战技栏.md" "核心规则/创建角色/战斗配置/物品与物品栏.md"`
-
-补充说明：
-
-- 默认样本导出产物位于 `output/export_samples/`；批次导出会落在 `output/export_samples/<batch-name>/`
-- PDF 中间预览文件名会跟随批次名变化，例如 `sample-export.html`、`batch-a-core-01.html`
-- 若本机缺少 `hhc`，脚本会继续生成 `.hhp` / `.hhc` 项目文件，并把 CHM 编译标记为 `skipped`
-- 仅作为站点导航分组的空壳页，不应默认进入 PDF / CHM 正文；若要进入书籍，必须补最小概览正文
-- 批次导出默认读取 `docs/acceptance/export-stub-page-policy.md` 中的 `Export Filter` 列表，自动排除纯导航空壳页
-- 每次导出后，脚本会在对应输出目录生成 `verification.md`，用于保留稳定的批次文件清单
 
 ## GitHub Pages 发布
 

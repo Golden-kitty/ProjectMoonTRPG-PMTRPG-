@@ -1,2 +1,0 @@
-# Optional local environment for export-readiness sample verification
-reportlab
