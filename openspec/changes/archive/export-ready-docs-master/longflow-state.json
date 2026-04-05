@@ -1,0 +1,15 @@
+{
+  "change_id": "export-ready-docs-master",
+  "mode": "longflow",
+  "status": "completed",
+  "current_phase": "completed",
+  "current_task": "all batches completed and validated",
+  "last_commit": "",
+  "last_validation": {
+    "command": "python scripts/audit_export_readiness.py && python scripts/export_sample_docs.py --format all --compile-chm --batch-name batch10-final-bucket --file-list openspec/changes/export-ready-docs-master/batch10-final-bucket.txt --stub-policy docs/acceptance/export-stub-page-policy.md",
+    "result": "A/B buckets cleared; batch3-10 PDF+CHM exports completed"
+  },
+  "heartbeat_at": "2026-04-05T04:00:00Z",
+  "next_action": "Archive this change or use it as input for the final export product change.",
+  "resume_prompt": "Master export-ready-docs longflow is complete; begin the next change only if the user requests final product assembly."
+}
