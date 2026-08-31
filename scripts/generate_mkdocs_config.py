@@ -20,6 +20,7 @@ INTERNAL_DOCS = {
 
 INTERNAL_PREFIXES = (
     "acceptance/",
+    "engineering/",
     "tasks/",
 )
 
@@ -45,7 +46,7 @@ SECTION_ONLY_TITLES = {
     "4.18.1 武器",
 }
 
-TOP_LEVEL_TITLE_OVERRIDES = {
+DISPLAY_TITLE_OVERRIDES = {
     "1. PM_TRPG": "首页",
 }
 
@@ -228,11 +229,15 @@ def yaml_quote(value: str) -> str:
     return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
+def display_title(title: str, label: str) -> str:
+    return DISPLAY_TITLE_OVERRIDES.get(title, label)
+
+
 def render_nav(nodes: list[NavEntry], indent: int = 2) -> list[str]:
     lines: list[str] = []
     pad = " " * indent
     for node in nodes:
-        title = TOP_LEVEL_TITLE_OVERRIDES.get(node.title, node.title)
+        title = display_title(node.title, node.label)
         if node.children:
             lines.append(f"{pad}- {yaml_quote(title)}:")
             if node.path:
@@ -249,6 +254,7 @@ def build_config(nav_lines: list[str]) -> str:
     exclude_docs = "\n".join(
         [
             "acceptance/**",
+            "engineering/**",
             "tasks/**",
             "PDF图片索引.md",
             "PDF章节页码映射.md",
@@ -268,7 +274,14 @@ def build_config(nav_lines: list[str]) -> str:
         "use_directory_urls: false",
         "strict: true",
         "theme:",
-        "  name: mkdocs",
+        "  name: material",
+        "  language: zh",
+        "  features:",
+        "    - navigation.expand",
+        "    - navigation.footer",
+        "    - navigation.path",
+        "    - navigation.sections",
+        "    - toc.integrate",
         "validation:",
         "  links:",
         "    not_found: ignore",
