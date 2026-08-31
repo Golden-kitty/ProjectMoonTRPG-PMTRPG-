@@ -26,11 +26,10 @@ def on_page_markdown(markdown, *args, **kwargs):  # type: ignore[no-untyped-def]
 
 
 def on_post_build(*args, **kwargs):  # type: ignore[no-untyped-def]
-    if ASSETS_DST.exists():
-        shutil.rmtree(ASSETS_DST)
-
-    # Keep the site self-contained without mutating the repository assets.
-    shutil.copytree(ASSETS_SRC, ASSETS_DST)
+    # Merge repository assets into the theme output. Material also writes its
+    # stylesheets, scripts, and icons under site/assets, so replacing the whole
+    # directory would silently remove the theme and leave the HTML unstyled.
+    shutil.copytree(ASSETS_SRC, ASSETS_DST, dirs_exist_ok=True)
     print(f"[mkdocs_hooks] copied assets -> {ASSETS_DST}")
 
     # GitHub Pages root URLs require an index.html entry point.
