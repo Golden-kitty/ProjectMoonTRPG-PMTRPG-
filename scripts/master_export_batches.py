@@ -5,8 +5,6 @@ import re
 from pathlib import Path
 
 from audit_export_readiness import DOCS_DIR, analyze_file, iter_docs
-from rebuild_html_tables_to_pipe import rebuild_file
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 MASTER_CHANGE_DIR = REPO_ROOT / "openspec" / "changes" / "export-ready-docs-master"
 
@@ -148,9 +146,6 @@ def fix_file(rel: str) -> bool:
         return False
 
     changed = False
-    if "<table" in path.read_text(encoding="utf-8", errors="replace").lower():
-        changed = rebuild_file(str(path)) or changed
-
     text = path.read_text(encoding="utf-8")
     new_text = normalize_spaces(text)
     new_text = promote_or_add_h1(new_text, rel)

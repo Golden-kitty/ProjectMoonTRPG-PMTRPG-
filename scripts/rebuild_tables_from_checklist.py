@@ -56,7 +56,18 @@ def main() -> None:
         default="docs/表格重建清单.md",
         help="Checklist markdown path",
     )
+    ap.add_argument(
+        "--allow-lossy",
+        action="store_true",
+        help="Explicitly allow legacy HTML-to-pipe conversion after reviewing every selected table",
+    )
     args = ap.parse_args()
+
+    if not args.allow_lossy:
+        raise SystemExit(
+            "refusing lossy HTML-table conversion; rerun with --allow-lossy only after "
+            "reviewing rowspan, colspan, nested tables, images, and title rows"
+        )
 
     checklist_path = Path(args.checklist)
     checklist_text = checklist_path.read_text("utf-8")
@@ -78,7 +89,7 @@ def main() -> None:
             checklist_text = mark_done(checklist_text, rel, "已无 `<table>`（无需重建）")
             continue
 
-        rebuild_file(str(md_path))
+        rebuild_file(str(md_path), allow_lossy=True)
         new = md_path.read_text("utf-8")
         if "<table" in new.lower():
             raise SystemExit(f"still_has_table: {rel}")

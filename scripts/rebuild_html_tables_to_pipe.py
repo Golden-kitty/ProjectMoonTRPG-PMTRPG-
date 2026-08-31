@@ -8,6 +8,10 @@ from bs4 import BeautifulSoup
 TABLE_BLOCK_RE = re.compile(r"<table\b[\s\S]*?</table\s*>", flags=re.I)
 
 
+class LossyTableConversionError(RuntimeError):
+    """Raised when an in-place HTML-to-pipe conversion was not explicitly allowed."""
+
+
 def _norm_cell_text(text: str) -> str:
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     # Collapse whitespace inside lines
@@ -134,13 +138,19 @@ def html_table_to_pipe(table_html: str) -> str:
     return "\n".join(out_lines) + "\n"
 
 
-def rebuild_file(path: str) -> bool:
+def rebuild_file(path: str, *, allow_lossy: bool = False) -> bool:
     with open(path, "r", encoding="utf-8") as f:
         src = f.read()
 
     matches = list(TABLE_BLOCK_RE.finditer(src))
     if not matches:
         return False
+    if not allow_lossy:
+        raise LossyTableConversionError(
+            "refusing lossy HTML-table conversion; preserve the source HTML or rerun "
+            "with explicit allow_lossy=True/--allow-lossy after reviewing rowspan, "
+            "colspan, nested tables, images, and title rows"
+        )
 
     out = []
     last = 0
@@ -159,9 +169,14 @@ def rebuild_file(path: str) -> bool:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", required=True, help="Target markdown file to rebuild HTML tables in-place")
+    ap.add_argument(
+        "--allow-lossy",
+        action="store_true",
+        help="Explicitly allow the legacy lossy conversion after manually reviewing the table",
+    )
     args = ap.parse_args()
 
-    changed = rebuild_file(args.file)
+    changed = rebuild_file(args.file, allow_lossy=args.allow_lossy)
     print("changed" if changed else "no_tables")
 
 
