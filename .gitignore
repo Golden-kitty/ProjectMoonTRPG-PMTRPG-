@@ -58,3 +58,10 @@ notebooks/*.executed.ipynb
 notebooks/*_assets/
 notebooks/*_combo/
 originFab/*.xlsx
+
+# Local research, previews, and scratch work
+/tmp/
+
+# Local Codex preferences and deferred agent experiments
+/.codex/config.toml
+/.agents/skills/pmtrpg-landing-design/
