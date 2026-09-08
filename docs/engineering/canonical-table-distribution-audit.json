@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "issues": [],
+  "source": {
+    "files": [
+      "核心规则/战斗/重创与疯狂.md",
+      "创作指南/具现化特性设计.md",
+      "资源目录/种族/基本种族.md",
+      "核心规则/心灵之光/压迫.md",
+      "核心规则/速查图表/技能列表.md"
+    ],
+    "labels": [
+      "重创与疯狂",
+      "具现化特性设计",
+      "基本种族",
+      "压迫",
+      "技能列表"
+    ],
+    "table_count": 19,
+    "table_ids": [
+      "markdown-6e13ca19145c",
+      "markdown-c586835331a5",
+      "markdown-7875cb606e29",
+      "html-aa8f8353d441",
+      "html-3c0bd5ac4021",
+      "html-11f25c2134bc",
+      "html-05ee8bbc555f",
+      "html-99d967ff1da4",
+      "html-f8d6557f23d4",
+      "html-603a27d4f229",
+      "html-1c9eeed71e65",
+      "html-8bf1d9eb9607",
+      "html-ccb1ef7e905d",
+      "html-bae47cf2eeb8",
+      "html-6f1ec1b7a3b3",
+      "html-9f2a1c0d121e",
+      "html-965ebc2f6715",
+      "html-999d3fb914d0",
+      "html-e151d009dcc3"
+    ],
+    "unique_table_ids": 19,
+    "colspan_cells": 26,
+    "rowspan_slots": 35,
+    "nested_tables": 1,
+    "image_occurrences": 42,
+    "unique_image_sources": 4,
+    "prose_blocks": [
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "h1",
+        "text": "重创",
+        "normalized": "重创"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "投掷一个d10，根据骰值在下表选择对应的重创效应。两个骰值分别代表左右两侧，当某个重创效应再次出现时，角色立即死亡。",
+        "normalized": "投掷一个d10根据骰值在下表选择对应的重创效应两个骰值分别代表左右两侧当某个重创效应再次出现时角色立即死亡"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "重创效应表",
+        "normalized": "重创效应表"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "h4",
+        "text": "疯狂",
+        "normalized": "疯狂"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "当一个角色陷入疯狂时，这个角色立即陷入混乱状态中。下一幕开始时，陷入疯狂的角色移除混乱状态，回复一半的理智值并抽取一个疯狂效应。",
+        "normalized": "当一个角色陷入疯狂时这个角色立即陷入混乱状态中下一幕开始时陷入疯狂的角色移除混乱状态回复一半的理智值并抽取一个疯狂效应"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "疯狂效应不会自行移除，需要相应治疗手段。拥有至少一个疯狂效应的角色，精神伤害抗性将在 所有增减益效果生效后 提升一级，但无法以此将精神伤害抗性提升至 抵抗 以上。",
+        "normalized": "疯狂效应不会自行移除需要相应治疗手段拥有至少一个疯狂效应的角色精神伤害抗性将在所有增减益效果生效后提升一级但无法以此将精神伤害抗性提升至抵抗以上"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "投掷一个d10，根据骰值在下表选择对应的疯狂效应。疯狂效应无法堆叠，出现已有的疯狂效应时重新投掷，直到指向新的效应。",
+        "normalized": "投掷一个d10根据骰值在下表选择对应的疯狂效应疯狂效应无法堆叠出现已有的疯狂效应时重新投掷直到指向新的效应"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "当一个角色在已有三种疯狂效应的情况下再次陷入混乱，该角色将从精神层面完全崩溃，被宣布死亡， 无需死亡检定 。",
+        "normalized": "当一个角色在已有三种疯狂效应的情况下再次陷入混乱该角色将从精神层面完全崩溃被宣布死亡无需死亡检定"
+      },
+      {
+        "file": "核心规则/战斗/重创与疯狂.md",
+        "tag": "p",
+        "text": "疯狂效应表",
+        "normalized": "疯狂效应表"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "h1",
+        "text": "具现化特性设计",
+        "normalized": "具现化特性设计"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "具现化特性按等级分为4级，这里给出具现化等级分类的一个参考。",
+        "normalized": "具现化特性按等级分为4级这里给出具现化等级分类的一个参考"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "1级：低级数值提升（包括美德和技能）",
+        "normalized": "1级低级数值提升包括美德和技能"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "2级：中级数值提升、低级机制能力",
+        "normalized": "2级中级数值提升低级机制能力"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "3级：高级数值提升、EGO化战技、EGO化装备",
+        "normalized": "3级高级数值提升ego化战技ego化装备"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "4级：独立EGO战技、独立EGO装备、高级机制能力",
+        "normalized": "4级独立ego战技独立ego装备高级机制能力"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "低级数值提升：可以提高角色的勇气、谨慎、自律、以及非梅花技能",
+        "normalized": "低级数值提升可以提高角色的勇气谨慎自律以及非梅花技能"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "中级数值提升：可以提高角色的正义、自我、以及梅花技能",
+        "normalized": "中级数值提升可以提高角色的正义自我以及梅花技能"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "高级数值提升：可以提高角色的抗性",
+        "normalized": "高级数值提升可以提高角色的抗性"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "低级机制能力：提供逻辑简单，功能单一的机制能力",
+        "normalized": "低级机制能力提供逻辑简单功能单一的机制能力"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "高级机制能力：提供功能多样，较为复杂的机制能力",
+        "normalized": "高级机制能力提供功能多样较为复杂的机制能力"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "EGO化战技：将EGO词条赋予给已有的战技",
+        "normalized": "ego化战技将ego词条赋予给已有的战技"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "EGO化装备：将EGO词条赋予给已有的装备",
+        "normalized": "ego化装备将ego词条赋予给已有的装备"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "独立EGO战技：非词条赋予的，EGO战技",
+        "normalized": "独立ego战技非词条赋予的ego战技"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "独立EGO装备：非词条赋予的，EGO装备",
+        "normalized": "独立ego装备非词条赋予的ego装备"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "注：因具现化特性所获得的战技（包括装备提供的战技）都不会占用战技栏，可以直接使用。",
+        "normalized": "注因具现化特性所获得的战技包括装备提供的战技都不会占用战技栏可以直接使用"
+      },
+      {
+        "file": "创作指南/具现化特性设计.md",
+        "tag": "p",
+        "text": "具现化特性模板",
+        "normalized": "具现化特性模板"
+      },
+      {
+        "file": "资源目录/种族/基本种族.md",
+        "tag": "h1",
+        "text": "人类",
+        "normalized": "人类"
+      },
+      {
+        "file": "资源目录/种族/基本种族.md",
+        "tag": "h4",
+        "text": "造物",
+        "normalized": "造物"
+      },
+      {
+        "file": "资源目录/种族/基本种族.md",
+        "tag": "h4",
+        "text": "扭曲",
+        "normalized": "扭曲"
+      },
+      {
+        "file": "核心规则/心灵之光/压迫.md",
+        "tag": "h1",
+        "text": "压迫",
+        "normalized": "压迫"
+      },
+      {
+        "file": "核心规则/心灵之光/压迫.md",
+        "tag": "p",
+        "text": "除了同调以外，还有一种方法可以获取异想体的力量，那就是压迫。与同调相反，压迫强调强者为尊，迫使弱势方改变自己来适配强者，而不是改变双方，逐渐走向同步。",
+        "normalized": "除了同调以外还有一种方法可以获取异想体的力量那就是压迫与同调相反压迫强调强者为尊迫使弱势方改变自己来适配强者而不是改变双方逐渐走向同步"
+      },
+      {
+        "file": "核心规则/心灵之光/压迫.md",
+        "tag": "p",
+        "text": "压迫检定成功时，角色在异想体偏好最高的同调类型所对应的美德上获得等同于对抗骰数量的永久美德增长；压迫检定失败时，角色失去 1d6 点自我。如果自我不足以支付代价，则以每点 d10 随机美德损失的方式逐次代为扣除；如果美德也无法支付代价，剩余自我损失改为每点 d10 侵蚀度增长。",
+        "normalized": "压迫检定成功时角色在异想体偏好最高的同调类型所对应的美德上获得等同于对抗骰数量的永久美德增长压迫检定失败时角色失去1d6点自我如果自我不足以支付代价则以每点d10随机美德损失的方式逐次代为扣除如果美德也无法支付代价剩余自我损失改为每点d10侵蚀度增长"
+      },
+      {
+        "file": "核心规则/心灵之光/压迫.md",
+        "tag": "p",
+        "text": "无论检定成功失败与否，角色都立即获得该异想体的最高同调计数。",
+        "normalized": "无论检定成功失败与否角色都立即获得该异想体的最高同调计数"
+      },
+      {
+        "file": "核心规则/心灵之光/压迫.md",
+        "tag": "h2",
+        "text": "压迫检定",
+        "normalized": "压迫检定"
+      },
+      {
+        "file": "核心规则/心灵之光/压迫.md",
+        "tag": "p",
+        "text": "当角色尝试压迫一个异想体时，流程与同调时大致相同，不过对应的属性是正义和自我。异想体根据其对压迫的偏好程度获得基础对抗骰，而角色则依然是投掷 1 枚 d100 作为基础值。",
+        "normalized": "当角色尝试压迫一个异想体时流程与同调时大致相同不过对应的属性是正义和自我异想体根据其对压迫的偏好程度获得基础对抗骰而角色则依然是投掷1枚d100作为基础值"
+      },
+      {
+        "file": "核心规则/速查图表/技能列表.md",
+        "tag": "h1",
+        "text": "技能列表",
+        "normalized": "技能列表"
+      },
+      {
+        "file": "核心规则/速查图表/技能列表.md",
+        "tag": "h2",
+        "text": "图例",
+        "normalized": "图例"
+      },
+      {
+        "file": "核心规则/速查图表/技能列表.md",
+        "tag": "li",
+        "text": "：将谨慎属性作为加值添加到基础技能水平上。",
+        "normalized": "将谨慎属性作为加值添加到基础技能水平上"
+      },
+      {
+        "file": "核心规则/速查图表/技能列表.md",
+        "tag": "li",
+        "text": "：将勇气属性作为加值添加到基础技能水平上。",
+        "normalized": "将勇气属性作为加值添加到基础技能水平上"
+      },
+      {
+        "file": "核心规则/速查图表/技能列表.md",
+        "tag": "li",
+        "text": "：将自律属性作为加值添加到基础技能水平上。",
+        "normalized": "将自律属性作为加值添加到基础技能水平上"
+      },
+      {
+        "file": "核心规则/速查图表/技能列表.md",
+        "tag": "li",
+        "text": "：该技能提升的技能点数消耗翻倍。",
+        "normalized": "该技能提升的技能点数消耗翻倍"
+      }
+    ],
+    "prose_block_count": 41,
+    "legacy_skill_markers": []
+  },
+  "chm": {
+    "compiled_path": "output/export_samples/canonical-table-pilot/chm/canonical-table-pilot.chm",
+    "compiled_bytes": 39961,
+    "generated": {
+      "html_files": 5,
+      "table_count": 19,
+      "table_ids": [
+        "markdown-6e13ca19145c",
+        "markdown-c586835331a5",
+        "markdown-7875cb606e29",
+        "html-aa8f8353d441",
+        "html-3c0bd5ac4021",
+        "html-11f25c2134bc",
+        "html-05ee8bbc555f",
+        "html-99d967ff1da4",
+        "html-f8d6557f23d4",
+        "html-603a27d4f229",
+        "html-1c9eeed71e65",
+        "html-8bf1d9eb9607",
+        "html-ccb1ef7e905d",
+        "html-bae47cf2eeb8",
+        "html-6f1ec1b7a3b3",
+        "html-9f2a1c0d121e",
+        "html-965ebc2f6715",
+        "html-999d3fb914d0",
+        "html-e151d009dcc3"
+      ],
+      "unique_table_ids": 19,
+      "image_occurrences": 42,
+      "image_files": 0,
+      "missing_images": []
+    },
+    "decompiled": {
+      "html_files": 5,
+      "table_count": 19,
+      "table_ids": [
+        "markdown-6e13ca19145c",
+        "markdown-c586835331a5",
+        "markdown-7875cb606e29",
+        "html-aa8f8353d441",
+        "html-3c0bd5ac4021",
+        "html-11f25c2134bc",
+        "html-05ee8bbc555f",
+        "html-99d967ff1da4",
+        "html-f8d6557f23d4",
+        "html-603a27d4f229",
+        "html-1c9eeed71e65",
+        "html-8bf1d9eb9607",
+        "html-ccb1ef7e905d",
+        "html-bae47cf2eeb8",
+        "html-6f1ec1b7a3b3",
+        "html-9f2a1c0d121e",
+        "html-965ebc2f6715",
+        "html-999d3fb914d0",
+        "html-e151d009dcc3"
+      ],
+      "unique_table_ids": 19,
+      "image_occurrences": 42,
+      "image_files": 4,
+      "missing_images": []
+    }
+  },
+  "docx": {
+    "table_count": 19,
+    "gridspan_count": 26,
+    "vmerge_count": 35,
+    "drawing_count": 42,
+    "blip_count": 42,
+    "media_files": 4,
+    "drawing_paragraphs_in_tables": 19,
+    "duplicate_suit_alt_text": [],
+    "legacy_skill_markers": [],
+    "explicit_page_break_count": 0,
+    "page_break_before_count": 0
+  },
+  "docx_word_print": {
+    "path": "output/evidence/table-html-conversion/canonical-table-pilot-word-print-20260905-v8.pdf",
+    "page_count": 11,
+    "text_chars": 8017,
+    "unique_image_xrefs": 4,
+    "missing_section_labels": [],
+    "source_prose_block_count": 41,
+    "matched_prose_block_count": 41,
+    "missing_prose_blocks": [],
+    "duplicate_suit_alt_text": [],
+    "legacy_skill_markers": [],
+    "fonts": [
+      {
+        "xref": 11,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F1",
+        "resource_name": "F1",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 19,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F2",
+        "resource_name": "F1",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 27,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F3",
+        "resource_name": "F2",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 35,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F4",
+        "resource_name": "F3",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 43,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F5",
+        "resource_name": "F3",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 51,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F6",
+        "resource_name": "F4",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 59,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F7",
+        "resource_name": "F5",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 88,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F8",
+        "resource_name": "F6",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 96,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CIDFont+F9",
+        "resource_name": "F7",
+        "encoding": "Identity-H",
+        "embedded": true
+      }
+    ],
+    "unembedded_cjk_fonts": [],
+    "embedded_font_count": 9,
+    "pages": [
+      {
+        "page": 1,
+        "text_chars": 919,
+        "images": 0
+      },
+      {
+        "page": 2,
+        "text_chars": 790,
+        "images": 0
+      },
+      {
+        "page": 3,
+        "text_chars": 682,
+        "images": 0
+      },
+      {
+        "page": 4,
+        "text_chars": 456,
+        "images": 0
+      },
+      {
+        "page": 5,
+        "text_chars": 551,
+        "images": 0
+      },
+      {
+        "page": 6,
+        "text_chars": 545,
+        "images": 0
+      },
+      {
+        "page": 7,
+        "text_chars": 570,
+        "images": 0
+      },
+      {
+        "page": 8,
+        "text_chars": 792,
+        "images": 4
+      },
+      {
+        "page": 9,
+        "text_chars": 1011,
+        "images": 4
+      },
+      {
+        "page": 10,
+        "text_chars": 952,
+        "images": 3
+      },
+      {
+        "page": 11,
+        "text_chars": 749,
+        "images": 1
+      }
+    ]
+  },
+  "pdf": {
+    "page_count": 11,
+    "text_chars": 7308,
+    "unique_image_xrefs": 4,
+    "missing_section_labels": [],
+    "source_prose_block_count": 41,
+    "matched_prose_block_count": 41,
+    "missing_prose_blocks": [],
+    "duplicate_suit_alt_text": [],
+    "legacy_skill_markers": [],
+    "fonts": [
+      {
+        "xref": 4,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "AAAAAA+MicrosoftYaHei-Bold",
+        "resource_name": "F4",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 5,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "BAAAAA+MicrosoftYaHei",
+        "resource_name": "F5",
+        "encoding": "Identity-H",
+        "embedded": true
+      },
+      {
+        "xref": 6,
+        "extension": "ttf",
+        "type": "Type0",
+        "base_font": "CAAAAA+MicrosoftYaHei-Bold",
+        "resource_name": "F6",
+        "encoding": "Identity-H",
+        "embedded": true
+      }
+    ],
+    "unembedded_cjk_fonts": [],
+    "embedded_font_count": 3,
+    "pages": [
+      {
+        "page": 1,
+        "text_chars": 706,
+        "images": 0
+      },
+      {
+        "page": 2,
+        "text_chars": 946,
+        "images": 0
+      },
+      {
+        "page": 3,
+        "text_chars": 547,
+        "images": 0
+      },
+      {
+        "page": 4,
+        "text_chars": 118,
+        "images": 0
+      },
+      {
+        "page": 5,
+        "text_chars": 452,
+        "images": 0
+      },
+      {
+        "page": 6,
+        "text_chars": 497,
+        "images": 0
+      },
+      {
+        "page": 7,
+        "text_chars": 364,
+        "images": 0
+      },
+      {
+        "page": 8,
+        "text_chars": 543,
+        "images": 0
+      },
+      {
+        "page": 9,
+        "text_chars": 831,
+        "images": 4
+      },
+      {
+        "page": 10,
+        "text_chars": 1372,
+        "images": 3
+      },
+      {
+        "page": 11,
+        "text_chars": 932,
+        "images": 2
+      }
+    ]
+  },
+  "manual_gates": {
+    "chm_decompiled_payload_visual": "accepted_by_user",
+    "chm_viewer_visual": "accepted_by_user",
+    "docx_word_open": "passed",
+    "docx_page_visual": "accepted_by_user",
+    "pdf_page_visual": "accepted_by_user"
+  }
+}

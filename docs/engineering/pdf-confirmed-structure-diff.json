@@ -1,0 +1,103 @@
+{
+  "mode": "structural",
+  "status": "FAIL",
+  "issue_count": 12,
+  "issues": [
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/出身/传统武人.md",
+      "line": 61,
+      "table_ordinal": null,
+      "message": "html-0cbe14ff449d structural fields changed: span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 2,
+      "table_ordinal": null,
+      "message": "html-2a6f044e9341 structural fields changed: span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 177,
+      "table_ordinal": null,
+      "message": "html-3b22d08d5e89 structural fields changed: span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 3,
+      "table_ordinal": null,
+      "message": "html-3c0bd5ac4021 structural fields changed: rows",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 119,
+      "table_ordinal": null,
+      "message": "html-4e0308ac37c6 structural fields changed: span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 60,
+      "table_ordinal": null,
+      "message": "html-53c891528ef5 structural fields changed: span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 405,
+      "table_ordinal": null,
+      "message": "html-659f22fceac2 structural fields changed: columns, span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/创作指南/具现化特性设计.md",
+      "line": 75,
+      "table_ordinal": null,
+      "message": "html-aa8f8353d441 structural fields changed: columns, span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/出身/传统武人.md",
+      "line": 2,
+      "table_ordinal": null,
+      "message": "html-b8f593c89f4d structural fields changed: span_signature",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 370,
+      "table_ordinal": null,
+      "message": "html-ccb1ef7e905d structural fields changed: rows",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/核心规则/速查图表/技能列表.md",
+      "line": 10,
+      "table_ordinal": null,
+      "message": "html-e151d009dcc3 structural fields changed: images",
+      "severity": "error"
+    },
+    {
+      "code": "structure_changed",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 187,
+      "table_ordinal": null,
+      "message": "html-f8d6557f23d4 structural fields changed: rows",
+      "severity": "error"
+    }
+  ]
+}

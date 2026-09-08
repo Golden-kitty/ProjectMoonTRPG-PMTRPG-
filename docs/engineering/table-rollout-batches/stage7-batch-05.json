@@ -1,0 +1,1749 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-05",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "73448ac3aa0ffe21829443fc7c8a86d490514ab354eac4fa894821c659fcd1ca",
+  "table_count": 32,
+  "document_count": 13,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 0,
+  "policy_closed_table_count": 32,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 0,
+    "span": 32,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "medium": 32
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/改造/部件/怪谈/小型.md",
+      "sha256": "a7f65e36526fd0a6207de218c799ecfb78bfeb431edea5a3b26c1b0a75599737",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/消耗品/医疗品/传闻.md",
+      "sha256": "a2340aaebd04787cb0f43ad4e5d5de3b4a9cca1bb96f75248eb2e666d0f9a903",
+      "table_count": 5
+    },
+    {
+      "path": "docs/资源目录/消耗品/工具/传闻.md",
+      "sha256": "a3b123ca752c5d1def8082016790542fd61cba6ecc213281503f4cf1747cea41",
+      "table_count": 3
+    },
+    {
+      "path": "docs/资源目录/消耗品/工具/怪谈.md",
+      "sha256": "20ac0567c9677ce0055a1aae109e71d82628d98b2426834eb15606a8e7732329",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/消耗品/弹药/其他.md",
+      "sha256": "6181f2b711ba013321231e279e306a92553ce22d3e5a2addb9ac27936016c93b",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/消耗品/弹药/小口径.md",
+      "sha256": "4fa3dcf7b223c94ec75a0e1a236748cf7112d60bd360a9917a05eea5722cf27c",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/消耗品/成瘾品/生理成瘾品.md",
+      "sha256": "a2cee7b26d879ba26368d4eb68def34feec7fd97acab78a3527c241e9e685759",
+      "table_count": 3
+    },
+    {
+      "path": "docs/资源目录/消耗品/燃料/化学能.md",
+      "sha256": "9845918af98d15aafee08b3c06cd76334e58bc5c9b84718abdc7fd1c0940b76b",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/消耗品/燃料/电子能.md",
+      "sha256": "bc9197b20fc593a54a2b4566b2772de8266fc8d5c1715133818cac74d8b20d82",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/消耗品/食物/乳制品.md",
+      "sha256": "32c17ca8c9687c5a4eb0b06c94a72787c7a8e05ba52b81dc45578b583544d901",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "sha256": "9ee62921a8690927c33d2c1bba147c3bddf0645f5fc1c3a5e953ea488c7e80e7",
+      "table_count": 7
+    },
+    {
+      "path": "docs/资源目录/消耗品/食物/碳酸饮料.md",
+      "sha256": "6294237cbf8b4dbd10a545f946ccbee8b7dcacf90bd5d0afb917447dd783e2f9",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/消耗品/食物/酒精饮料.md",
+      "sha256": "309a4c4e432fc3e9c8e10f3f2b4b275b8d7fdb4bc576d57eeb6d2cf027b6abc5",
+      "table_count": 1
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-edbe59f582ce",
+      "path": "docs/资源目录/改造/部件/怪谈/小型.md",
+      "line": 3,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7f7eae16d6ab",
+      "path": "docs/资源目录/改造/部件/怪谈/小型.md",
+      "line": 33,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b9a6afc8bf80",
+      "path": "docs/资源目录/改造/部件/怪谈/小型.md",
+      "line": 61,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5f17f1da23bb",
+      "path": "docs/资源目录/改造/部件/怪谈/小型.md",
+      "line": 88,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d0cde12ebccc",
+      "path": "docs/资源目录/消耗品/医疗品/传闻.md",
+      "line": 2,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4b773e6b4833",
+      "path": "docs/资源目录/消耗品/医疗品/传闻.md",
+      "line": 27,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-455d60399337",
+      "path": "docs/资源目录/消耗品/医疗品/传闻.md",
+      "line": 71,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-6161df344605",
+      "path": "docs/资源目录/消耗品/医疗品/传闻.md",
+      "line": 99,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8d009a13017e",
+      "path": "docs/资源目录/消耗品/医疗品/传闻.md",
+      "line": 142,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-854266677b1f",
+      "path": "docs/资源目录/消耗品/工具/传闻.md",
+      "line": 4,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-dba18c22189b",
+      "path": "docs/资源目录/消耗品/工具/传闻.md",
+      "line": 29,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2abdac5db2a2",
+      "path": "docs/资源目录/消耗品/工具/传闻.md",
+      "line": 55,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        163,
+        174,
+        189,
+        192
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1b6f77ca9d5b",
+      "path": "docs/资源目录/消耗品/工具/怪谈.md",
+      "line": 2,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        169,
+        184,
+        193
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-51e335d9fd0f",
+      "path": "docs/资源目录/消耗品/工具/怪谈.md",
+      "line": 28,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        169,
+        184,
+        193
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-89bfc5f2adba",
+      "path": "docs/资源目录/消耗品/弹药/其他.md",
+      "line": 2,
+      "rows": 4,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        198
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-78c566da720d",
+      "path": "docs/资源目录/消耗品/弹药/小口径.md",
+      "line": 2,
+      "rows": 4,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        197
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-759df942dde6",
+      "path": "docs/资源目录/消耗品/成瘾品/生理成瘾品.md",
+      "line": 3,
+      "rows": 9,
+      "columns": 6,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        200
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c1efd9fc76bc",
+      "path": "docs/资源目录/消耗品/成瘾品/生理成瘾品.md",
+      "line": 53,
+      "rows": 8,
+      "columns": 6,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        200
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f5721d5aff09",
+      "path": "docs/资源目录/消耗品/成瘾品/生理成瘾品.md",
+      "line": 99,
+      "rows": 9,
+      "columns": 6,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        200
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-6c8b395ff602",
+      "path": "docs/资源目录/消耗品/燃料/化学能.md",
+      "line": 2,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        204
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-73a4ce9f019a",
+      "path": "docs/资源目录/消耗品/燃料/电子能.md",
+      "line": 3,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        203
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-292fa56125aa",
+      "path": "docs/资源目录/消耗品/燃料/电子能.md",
+      "line": 29,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        203
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b280df799d41",
+      "path": "docs/资源目录/消耗品/食物/乳制品.md",
+      "line": 2,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        206
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a574a552c6e4",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 3,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3f700b1dd4f6",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 31,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-77f2c0f22819",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 58,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bb01ec9d911e",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 85,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f1480a8bf8a3",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 112,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e091e68de2a2",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 156,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0205b56a8230",
+      "path": "docs/资源目录/消耗品/食物/包装食物.md",
+      "line": 200,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        207
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4c164c2b25ec",
+      "path": "docs/资源目录/消耗品/食物/碳酸饮料.md",
+      "line": 2,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        210
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-cfeca529e3ac",
+      "path": "docs/资源目录/消耗品/食物/酒精饮料.md",
+      "line": 2,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        211
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

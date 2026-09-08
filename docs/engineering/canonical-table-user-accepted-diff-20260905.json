@@ -1,0 +1,20 @@
+{
+  "mode": "structural",
+  "status": "FAIL",
+  "issue_count": 1,
+  "comparison_purpose": "record the intentional delta from the pre-skill-marker baseline before rebasing the inventory",
+  "disposition": "ACCEPTED_BASELINE_CHANGE",
+  "accepted_at": "2026-09-05",
+  "acceptance_record": "docs/acceptance/canonical-table-distribution-pilot.md",
+  "note": "The single reported image-field change is the restoration of 19 original suit icons in the skill-list table. The user accepted the regenerated outputs; the current inventory was then refreshed.",
+  "issues": [
+    {
+      "code": "structure_changed",
+      "path": "docs/核心规则/速查图表/技能列表.md",
+      "line": 10,
+      "table_ordinal": null,
+      "message": "html-e151d009dcc3 structural fields changed: images",
+      "severity": "error"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Source and frozen audit hashes must be identical on Windows and Linux.
+docs/**/*.md text eol=lf
+docs/engineering/**/*.json text eol=lf
+docs/acceptance/**/*.json text eol=lf
+scripts/*.py text eol=lf
+tests/*.py text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf

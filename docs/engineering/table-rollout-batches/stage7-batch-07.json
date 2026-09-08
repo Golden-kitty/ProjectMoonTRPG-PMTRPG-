@@ -1,0 +1,2272 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-07",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "e584023afa40cecf8e440f86369f9e7642433de513494c5a137512762248bc58",
+  "table_count": 33,
+  "document_count": 8,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 1,
+  "policy_closed_table_count": 32,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 0,
+    "span": 33,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "medium": 33
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/装备/武器/奇门.md",
+      "sha256": "c5d9232c9c1382be5455af206061b91ecbd8b526e468e200ce7f4f9c3b1da8d6",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "sha256": "50110e490b99b23a390e408f96365623423eba31c12ff5e809d4f698b9d45169",
+      "table_count": 7
+    },
+    {
+      "path": "docs/资源目录/装备/武器/弓弩.md",
+      "sha256": "e650765bb64e6a6a25a65ea3cb4d5a5c1b62955705bf12d155731c36671c1397",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/装备/武器/盾牌.md",
+      "sha256": "60d2e1c61e2949feec18358ad0f417e9f9e5acebccc469398b03920818ced965",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/装备/武器/短兵.md",
+      "sha256": "84de157b4a5deb23beba32f4451f20bcfc68647dc8db366bb557fcde99514305",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/装备/武器/短柄.md",
+      "sha256": "3fd5121fd116cf6d1a7913ed41c028441dbb4e259c6e05ea9105c71f79e2544b",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/装备/武器/软兵.md",
+      "sha256": "ecbcd80467d8a8e21d96a645914cc84204f0928f601b1836d0654c2c857b8792",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "sha256": "249a32b4c9acb0c55ac446352975e83b13a547cdd5cc098fd00b2a462b6c34fe",
+      "table_count": 6
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-aee6c1ce0c6a",
+      "path": "docs/资源目录/装备/武器/奇门.md",
+      "line": 5,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        217,
+        227
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1b8b673ee9ce",
+      "path": "docs/资源目录/装备/武器/奇门.md",
+      "line": 32,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        217,
+        227
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a40377690f7e",
+      "path": "docs/资源目录/装备/武器/奇门.md",
+      "line": 62,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        217,
+        227
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-199c6a26b446",
+      "path": "docs/资源目录/装备/武器/奇门.md",
+      "line": 89,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        217,
+        227
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-46591539b7e7",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 3,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-eda24210f4b9",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 35,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5666db891fb4",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 61,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 7,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=2"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-c5d94ac27e71",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 93,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f658b72eb6d8",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 122,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0d3a092baabe",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 154,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-64dd76948a19",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 179,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0677955a2adb",
+      "path": "docs/资源目录/装备/武器/弓弩.md",
+      "line": 2,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        234
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e26295ce64a7",
+      "path": "docs/资源目录/装备/武器/弓弩.md",
+      "line": 34,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        234
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c2a950923444",
+      "path": "docs/资源目录/装备/武器/弓弩.md",
+      "line": 67,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        234
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4462ae7ac424",
+      "path": "docs/资源目录/装备/武器/弓弩.md",
+      "line": 99,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        234
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0e9bc48fe4ee",
+      "path": "docs/资源目录/装备/武器/盾牌.md",
+      "line": 3,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        237
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b37cbd1e16bc",
+      "path": "docs/资源目录/装备/武器/盾牌.md",
+      "line": 34,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        237
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7c994d6b0899",
+      "path": "docs/资源目录/装备/武器/短兵.md",
+      "line": 3,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        238
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b5eb9bfa7de9",
+      "path": "docs/资源目录/装备/武器/短兵.md",
+      "line": 32,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        238
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-722e6fbed833",
+      "path": "docs/资源目录/装备/武器/短兵.md",
+      "line": 61,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        238
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bd40a71b7827",
+      "path": "docs/资源目录/装备/武器/短兵.md",
+      "line": 90,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        238
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f347db7b8c16",
+      "path": "docs/资源目录/装备/武器/短柄.md",
+      "line": 3,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        240
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2acbd75dc3c0",
+      "path": "docs/资源目录/装备/武器/短柄.md",
+      "line": 30,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        240
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-91e45d1b4e51",
+      "path": "docs/资源目录/装备/武器/短柄.md",
+      "line": 59,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        240
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-861a460a1779",
+      "path": "docs/资源目录/装备/武器/短柄.md",
+      "line": 88,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        240
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-769d5aad0b09",
+      "path": "docs/资源目录/装备/武器/软兵.md",
+      "line": 2,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        242
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-996615fbb4b2",
+      "path": "docs/资源目录/装备/武器/软兵.md",
+      "line": 30,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        242
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-18832cb23db3",
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "line": 2,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        243
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-daddbfb31f55",
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "line": 29,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        243
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8b2ada802a09",
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "line": 54,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        243
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f66c7b53c2fb",
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "line": 86,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        243
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ac3389014443",
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "line": 118,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        243
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c0408f203dc3",
+      "path": "docs/资源目录/装备/武器/长兵.md",
+      "line": 150,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        243
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

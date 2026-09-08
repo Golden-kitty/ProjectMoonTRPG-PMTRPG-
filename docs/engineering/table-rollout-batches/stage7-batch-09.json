@@ -1,0 +1,1077 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-09",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "569c7716675e1f38ff27a9c35f90bd5511ad1ff8767c684c16f3ee181ce4aaa6",
+  "table_count": 27,
+  "document_count": 4,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 0,
+  "policy_closed_table_count": 27,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 0,
+    "span": 27,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "medium": 27
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "sha256": "12854bc8f899525d0a362a7031ba870de41ef2adcbf87e4ce3db994183d7bae0",
+      "table_count": 7
+    },
+    {
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "sha256": "3798157ea4b3e9c3f264b86960a006081924e06893003aed7c7c526e4230a56e",
+      "table_count": 9
+    },
+    {
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "sha256": "bbde0af980edfd08bc12390b6d5ff11a4cda6cfba3205e51366664058e63003d",
+      "table_count": 6
+    },
+    {
+      "path": "docs/资源目录/课程/基础战技/通用镇暴术.md",
+      "sha256": "a8a8919a29532f951020af65f272a3f43e1a09bfe112b7ae6d6ed90e1c355493",
+      "table_count": 5
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-c332f8f447c3",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 3,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c6a0eebacf56",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 29,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8f4e22342f72",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 55,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-25bb257dec61",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 81,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1658e59b1c38",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 108,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d304a31a0904",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 134,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2d71feb93470",
+      "path": "docs/资源目录/课程/基础战技/标准战术.md",
+      "line": 160,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        254
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bb954bd7e79e",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 7,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5dc2da54d864",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 34,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-fa8088eed47d",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 61,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-521a69cf12e0",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 89,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-84edf23cf884",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 117,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-74dd252d21f5",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 144,
+      "rows": 8,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1cf0ab9ac68e",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 175,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b36afacb7a5c",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 201,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5901270c211b",
+      "path": "docs/资源目录/课程/基础战技/标准格斗术.md",
+      "line": 228,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        257
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-576cf86a5025",
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "line": 7,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        261
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-eecc38deb855",
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "line": 35,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        261
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-615392583ac5",
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "line": 63,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        261
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-effde3753eec",
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "line": 91,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        261
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5a2e3ea3936d",
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "line": 121,
+      "rows": 9,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        261
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2e9d277936a1",
+      "path": "docs/资源目录/课程/基础战技/街头搏击术.md",
+      "line": 153,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        261
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f43003f5ac89",
+      "path": "docs/资源目录/课程/基础战技/通用镇暴术.md",
+      "line": 7,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        266
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-958587086981",
+      "path": "docs/资源目录/课程/基础战技/通用镇暴术.md",
+      "line": 35,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        266
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b0d98d3d4e7b",
+      "path": "docs/资源目录/课程/基础战技/通用镇暴术.md",
+      "line": 63,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        266
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8de143898a70",
+      "path": "docs/资源目录/课程/基础战技/通用镇暴术.md",
+      "line": 92,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        266
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-21ef02e808a6",
+      "path": "docs/资源目录/课程/基础战技/通用镇暴术.md",
+      "line": 124,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        266
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

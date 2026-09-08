@@ -1,0 +1,1841 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-03",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "814dae173b46970bb49e27e78eb7b38600bde5e77d9f19dd5df0bce81128983d",
+  "table_count": 28,
+  "document_count": 11,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 6,
+  "high_risk_reviewed_table_count": 4,
+  "policy_closed_table_count": 18,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 3,
+    "span": 25,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "low": 3,
+    "medium": 25
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/核心规则/效果/如何使用.md",
+      "sha256": "dabc85ed6c195b37b75e49566852c45b6795728b0b5ff7a3b4415a82fa332fce",
+      "table_count": 1
+    },
+    {
+      "path": "docs/核心规则/效果/强度表.md",
+      "sha256": "5921baa5a6d8c1422950ad9e166892f24eb6b8fa087e634a03466b9cf94945bd",
+      "table_count": 1
+    },
+    {
+      "path": "docs/核心规则/生活日常/休整.md",
+      "sha256": "d1a06984a5116a201fc7f18d76b92162fe0920650f4d9f373920a760c89dc4fe",
+      "table_count": 3
+    },
+    {
+      "path": "docs/核心规则/速查图表/经历与晋升一览表.md",
+      "sha256": "b1e008de83dea6ab1a70b1941455e8c2f8d31e4c9eefaa56dce9a1b15a9bb4cc",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/出身/传统武人.md",
+      "sha256": "7cee92de3e135b52bd34d7a2963907ffd1c247c16ee3b7925fdb49fb3749f8c8",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/出身/基础出身.md",
+      "sha256": "82c36e7a06c28f7d9054862a828c38c452c423c3d9cb0829ace99a7712ab6816",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/工坊/任意/奥特兰卡酒吧.md",
+      "sha256": "125e27911803a53fc80fb5e1696803240a64de416e6daaeec129ceb5bf40b194",
+      "table_count": 3
+    },
+    {
+      "path": "docs/资源目录/工坊/后巷/好棒棒快餐连锁.md",
+      "sha256": "512c4d675a19963548c7a00d192a072288ee7cb57889d73efc1da1bdfb633fea",
+      "table_count": 5
+    },
+    {
+      "path": "docs/资源目录/工坊/后巷/炎魔窟.md",
+      "sha256": "3bac678e9f7b7962d53af71734e3b423bc607843d1ba4f4a812920d82d6f67d7",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/工坊/巢内/宛冯煅冶所.md",
+      "sha256": "33b68424ea177d594a120f54ec63c664c7a938377228446be3d7edec9705bed4",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/工坊/郊区/公平代价.md",
+      "sha256": "0c144e0ed9668aad179e9ba32e1271b0bd7c0c16505eea3aa6b7a105b1b28367",
+      "table_count": 4
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-29399a3bb2c7",
+      "path": "docs/核心规则/效果/如何使用.md",
+      "line": 5,
+      "rows": 3,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 1,
+          "rowspan": 3
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        108
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-b85688655258",
+      "path": "docs/核心规则/效果/强度表.md",
+      "line": 6,
+      "rows": 10,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 5,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 8,
+          "colspan": 1,
+          "rowspan": 3
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        107
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "markdown-5fcdf8ee139b",
+      "path": "docs/核心规则/生活日常/休整.md",
+      "line": 16,
+      "rows": 14,
+      "columns": 4,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        99
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "markdown-8efc2d6ed4d0",
+      "path": "docs/核心规则/生活日常/休整.md",
+      "line": 110,
+      "rows": 7,
+      "columns": 1,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        99
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ef7e2beaea59",
+      "path": "docs/核心规则/生活日常/休整.md",
+      "line": 141,
+      "rows": 5,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        99
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-dbcc847c56b7",
+      "path": "docs/核心规则/速查图表/经历与晋升一览表.md",
+      "line": 7,
+      "rows": 4,
+      "columns": 11,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        118
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=11"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-024f6ca4cb78",
+      "path": "docs/核心规则/速查图表/经历与晋升一览表.md",
+      "line": 66,
+      "rows": 8,
+      "columns": 12,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        118
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=12"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-b8f593c89f4d",
+      "path": "docs/资源目录/出身/传统武人.md",
+      "line": 2,
+      "rows": 10,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 3
+        },
+        {
+          "row": 4,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        138
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-0cbe14ff449d",
+      "path": "docs/资源目录/出身/传统武人.md",
+      "line": 61,
+      "rows": 10,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 3
+        },
+        {
+          "row": 4,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        138
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-2a6f044e9341",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 2,
+      "rows": 10,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 3
+        },
+        {
+          "row": 4,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        136
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-53c891528ef5",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 60,
+      "rows": 10,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 3
+        },
+        {
+          "row": 4,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        136
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-4e0308ac37c6",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 119,
+      "rows": 10,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 3
+        },
+        {
+          "row": 4,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        136
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-3b22d08d5e89",
+      "path": "docs/资源目录/出身/基础出身.md",
+      "line": 177,
+      "rows": 10,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 3
+        },
+        {
+          "row": 4,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 8,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        136
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-9d2734a4143a",
+      "path": "docs/资源目录/工坊/任意/奥特兰卡酒吧.md",
+      "line": 6,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        152
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5f2233b845a0",
+      "path": "docs/资源目录/工坊/任意/奥特兰卡酒吧.md",
+      "line": 32,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        152
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-9d7ff893f92b",
+      "path": "docs/资源目录/工坊/任意/奥特兰卡酒吧.md",
+      "line": 57,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        152
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1bfc80ea32f1",
+      "path": "docs/资源目录/工坊/后巷/好棒棒快餐连锁.md",
+      "line": 6,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        143
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bc5aa5a54514",
+      "path": "docs/资源目录/工坊/后巷/好棒棒快餐连锁.md",
+      "line": 31,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        143
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bd345a049d3d",
+      "path": "docs/资源目录/工坊/后巷/好棒棒快餐连锁.md",
+      "line": 56,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        143
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4b646040dfe1",
+      "path": "docs/资源目录/工坊/后巷/好棒棒快餐连锁.md",
+      "line": 81,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        143
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-dd79dbe9f1c5",
+      "path": "docs/资源目录/工坊/后巷/好棒棒快餐连锁.md",
+      "line": 107,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        143
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8fc1106f959c",
+      "path": "docs/资源目录/工坊/后巷/炎魔窟.md",
+      "line": 7,
+      "rows": 10,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        142
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0a9e96f106e8",
+      "path": "docs/资源目录/工坊/巢内/宛冯煅冶所.md",
+      "line": 7,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        146
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-46db6fb92825",
+      "path": "docs/资源目录/工坊/巢内/宛冯煅冶所.md",
+      "line": 33,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        146
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3cc723e6dea9",
+      "path": "docs/资源目录/工坊/郊区/公平代价.md",
+      "line": 6,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        149
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-80611f50e315",
+      "path": "docs/资源目录/工坊/郊区/公平代价.md",
+      "line": 33,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        149
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0b3972869c9b",
+      "path": "docs/资源目录/工坊/郊区/公平代价.md",
+      "line": 60,
+      "rows": 6,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        149
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ed3a934bf1f3",
+      "path": "docs/资源目录/工坊/郊区/公平代价.md",
+      "line": 82,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        149
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

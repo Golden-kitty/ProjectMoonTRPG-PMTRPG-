@@ -1,0 +1,190 @@
+{
+  "mode": "apply",
+  "status": "PASS",
+  "converted_tables": 26,
+  "converted_documents": 16,
+  "tables": [
+    {
+      "id": "markdown-7875cb606e29",
+      "path": "docs/创作指南/具现化特性设计.md",
+      "line": 13,
+      "rows": 6,
+      "columns": 3
+    },
+    {
+      "id": "markdown-d10e48f81f6c",
+      "path": "docs/创作指南/强化类设计.md",
+      "line": 5,
+      "rows": 4,
+      "columns": 2
+    },
+    {
+      "id": "markdown-43055b33a2b2",
+      "path": "docs/创作指南/强化类设计.md",
+      "line": 15,
+      "rows": 7,
+      "columns": 4
+    },
+    {
+      "id": "markdown-83f782420179",
+      "path": "docs/创作指南/强化类设计.md",
+      "line": 28,
+      "rows": 5,
+      "columns": 3
+    },
+    {
+      "id": "markdown-7eba102a2829",
+      "path": "docs/创作指南/战技平衡.md",
+      "line": 17,
+      "rows": 8,
+      "columns": 9
+    },
+    {
+      "id": "markdown-f3bf5cd63681",
+      "path": "docs/核心规则/创建角色/战斗配置/战技与战技栏.md",
+      "line": 4,
+      "rows": 3,
+      "columns": 3
+    },
+    {
+      "id": "markdown-4d07364406d2",
+      "path": "docs/核心规则/心灵之光/心灵侵蚀.md",
+      "line": 15,
+      "rows": 6,
+      "columns": 4
+    },
+    {
+      "id": "markdown-31996d606169",
+      "path": "docs/核心规则/心灵之光/情感.md",
+      "line": 17,
+      "rows": 8,
+      "columns": 2
+    },
+    {
+      "id": "markdown-b216a581c54e",
+      "path": "docs/核心规则/心灵之光/情感.md",
+      "line": 30,
+      "rows": 6,
+      "columns": 2
+    },
+    {
+      "id": "markdown-2746f029de06",
+      "path": "docs/核心规则/心灵之光/神备和扭曲.md",
+      "line": 27,
+      "rows": 6,
+      "columns": 2
+    },
+    {
+      "id": "markdown-ffb8d94d98b5",
+      "path": "docs/核心规则/战斗/战后.md",
+      "line": 9,
+      "rows": 4,
+      "columns": 5
+    },
+    {
+      "id": "markdown-edcb0de3dbb1",
+      "path": "docs/核心规则/战斗/拼点.md",
+      "line": 33,
+      "rows": 5,
+      "columns": 2
+    },
+    {
+      "id": "markdown-7de0ced291e0",
+      "path": "docs/核心规则/战斗/拼点.md",
+      "line": 44,
+      "rows": 5,
+      "columns": 2
+    },
+    {
+      "id": "markdown-6e13ca19145c",
+      "path": "docs/核心规则/战斗/重创与疯狂.md",
+      "line": 9,
+      "rows": 6,
+      "columns": 4
+    },
+    {
+      "id": "markdown-c586835331a5",
+      "path": "docs/核心规则/战斗/重创与疯狂.md",
+      "line": 29,
+      "rows": 7,
+      "columns": 3
+    },
+    {
+      "id": "markdown-5fcdf8ee139b",
+      "path": "docs/核心规则/生活日常/休整.md",
+      "line": 16,
+      "rows": 14,
+      "columns": 4
+    },
+    {
+      "id": "markdown-e5d66321a18b",
+      "path": "docs/核心规则/购买项/强化类/义体与植入物类.md",
+      "line": 15,
+      "rows": 7,
+      "columns": 4
+    },
+    {
+      "id": "markdown-1685de3c63b9",
+      "path": "docs/核心规则/购买项/强化类/义体与植入物类.md",
+      "line": 28,
+      "rows": 5,
+      "columns": 3
+    },
+    {
+      "id": "markdown-429b92ad3e9f",
+      "path": "docs/核心规则/速查图表/战斗速查.md",
+      "line": 15,
+      "rows": 5,
+      "columns": 2
+    },
+    {
+      "id": "markdown-1493d6dc7acf",
+      "path": "docs/核心规则/速查图表/战斗速查.md",
+      "line": 26,
+      "rows": 5,
+      "columns": 2
+    },
+    {
+      "id": "markdown-ef7ea307a0f1",
+      "path": "docs/核心规则/速查图表/战斗速查.md",
+      "line": 37,
+      "rows": 2,
+      "columns": 6
+    },
+    {
+      "id": "markdown-086b45db341c",
+      "path": "docs/核心规则/速查图表/战斗速查.md",
+      "line": 45,
+      "rows": 6,
+      "columns": 4
+    },
+    {
+      "id": "markdown-d4354ca5c112",
+      "path": "docs/核心规则/速查图表/战斗速查.md",
+      "line": 57,
+      "rows": 7,
+      "columns": 3
+    },
+    {
+      "id": "markdown-9836334f888a",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 173,
+      "rows": 6,
+      "columns": 4
+    },
+    {
+      "id": "markdown-72522db90a90",
+      "path": "docs/资源目录/课程/其他课程/烹饪.md",
+      "line": 74,
+      "rows": 2,
+      "columns": 4
+    },
+    {
+      "id": "markdown-34e73efc5967",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 180,
+      "rows": 2,
+      "columns": 4
+    }
+  ]
+}

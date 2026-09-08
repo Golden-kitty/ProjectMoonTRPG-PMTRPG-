@@ -1,0 +1,1156 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-10",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "df3da50e021a5e1c8fc5cbb5c80bd646ac655a49022cd640fab2b980e615d052",
+  "table_count": 30,
+  "document_count": 3,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 0,
+  "policy_closed_table_count": 30,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 1,
+    "span": 29,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "low": 1,
+    "medium": 29
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "sha256": "7b8fac7bf4f47a7057701ac81d686a0f748b9cf768093cc83d8a506d61294ee2",
+      "table_count": 13
+    },
+    {
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "sha256": "f5146bdae15d69a8e1e4fb0a3ee0f24ca89e3263ef2a9f8149845987e2dd442b",
+      "table_count": 10
+    },
+    {
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "sha256": "63338754791312b66a53f40d23d116adff3514f82e841dbfad2c99d6cecaa9e2",
+      "table_count": 7
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-4cac25a84b6b",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 3,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-666a1b1d640a",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 37,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a6d03f10dc4e",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 62,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2fe2a86d70e9",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 93,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f8c7886f9e3f",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 121,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d058aff18347",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 147,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0f7406693e35",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 184,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5a27b84badc5",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 214,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-6e4b69b89b9b",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 241,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4e8f1ac13ae5",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 267,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2be18a254a00",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 296,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bab1acb4c2ff",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 326,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a56056f33abf",
+      "path": "docs/资源目录/课程/流派战技/丧家犬.md",
+      "line": 352,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        307
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-df9ffc708776",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 3,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7c19e307600a",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 25,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ff07182c4738",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 51,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-45b599d0f4b9",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 78,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7fd474963b80",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 106,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-039d5874057a",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 134,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5a6fc3bc3721",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 164,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b67a859544f8",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 189,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7a9ae1f09fc9",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 217,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-97c52f3d1bee",
+      "path": "docs/资源目录/课程/流派战技/八相枪.md",
+      "line": 245,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        281
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-08327a732672",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 7,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-aeaaa8bc0ec6",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 35,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5195e3b78c45",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 61,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-565865c2d7c1",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 94,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8ff0f885b08b",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 122,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c597dece070b",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 148,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "markdown-34e73efc5967",
+      "path": "docs/资源目录/课程/流派战技/古武术/咏春.md",
+      "line": 180,
+      "rows": 2,
+      "columns": 4,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        276
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

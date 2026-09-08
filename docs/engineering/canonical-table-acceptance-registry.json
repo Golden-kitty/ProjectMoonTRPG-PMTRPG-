@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "accepted_sets": [
+    {
+      "id": "canonical-table-pilot-20260905",
+      "accepted_at": "2026-09-05",
+      "accepted_by": "user",
+      "acceptance_record": "docs/acceptance/canonical-table-distribution-pilot.md",
+      "scope_note": "用户确认新版 PDF 正文可见且技能花色标记正确；此前已确认站点代表表、CHM 正文与目录、DOCX 行距及重复替代文字修复。该接受仅覆盖本组 5 个文档中的 19 张表。",
+      "documents": [
+        {
+          "path": "docs/核心规则/战斗/重创与疯狂.md",
+          "sha256": "b3ea7d9367c0eb2eb03c48a55d1247b6e923c9062d3f9796d6c65fe86cdd808a"
+        },
+        {
+          "path": "docs/创作指南/具现化特性设计.md",
+          "sha256": "062d928107ea456b21b88ed4f5d9e0ad72d11d5f1d5591588c3c7fdd29ba3d9a"
+        },
+        {
+          "path": "docs/资源目录/种族/基本种族.md",
+          "sha256": "e8d0eb293718b5e315a787e606f6f5bfc0f8059df76d9e6391a16a8c9648370c"
+        },
+        {
+          "path": "docs/核心规则/心灵之光/压迫.md",
+          "sha256": "ba037c958841421e40800ce2d1839099877c67e41d81eef95001108fc92b8ae4"
+        },
+        {
+          "path": "docs/核心规则/速查图表/技能列表.md",
+          "sha256": "97ed8722b3d59b6a014f0819d5738a0f197bf35cf4e57208bd88c339d7c5e89b"
+        }
+      ],
+      "table_ids": [
+        "markdown-7875cb606e29",
+        "html-aa8f8353d441",
+        "html-965ebc2f6715",
+        "html-999d3fb914d0",
+        "markdown-6e13ca19145c",
+        "markdown-c586835331a5",
+        "html-e151d009dcc3",
+        "html-3c0bd5ac4021",
+        "html-11f25c2134bc",
+        "html-05ee8bbc555f",
+        "html-99d967ff1da4",
+        "html-f8d6557f23d4",
+        "html-603a27d4f229",
+        "html-1c9eeed71e65",
+        "html-8bf1d9eb9607",
+        "html-ccb1ef7e905d",
+        "html-bae47cf2eeb8",
+        "html-6f1ec1b7a3b3",
+        "html-9f2a1c0d121e"
+      ]
+    }
+  ]
+}

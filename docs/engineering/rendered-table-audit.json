@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "expected_tables": 370,
+  "observed_tables": 370,
+  "rendered_documents": 92,
+  "scanned_documents": 206,
+  "article_tables": 370,
+  "issue_count": 0,
+  "issues": []
+}

@@ -4,7 +4,6 @@ import re
 import shutil
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SITE_DIR = REPO_ROOT / "site"
 ASSETS_SRC = REPO_ROOT / "assets"

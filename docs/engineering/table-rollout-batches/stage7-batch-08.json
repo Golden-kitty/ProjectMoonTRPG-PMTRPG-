@@ -1,0 +1,1354 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-08",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "adc006621bd738a4cc13eb3d4563228f50ed5c3b4bf8db0ad34e43de54e5c3c4",
+  "table_count": 31,
+  "document_count": 6,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 0,
+  "policy_closed_table_count": 31,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 1,
+    "span": 30,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "low": 1,
+    "medium": 30
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/装备/武器/长柄.md",
+      "sha256": "d28fa0d8b8d8ce49498a95bfe5f1ff09c9490f2c5642ccd23b53bee4b371c5b6",
+      "table_count": 2
+    },
+    {
+      "path": "docs/资源目录/装备/衣物/外套.md",
+      "sha256": "216ce509871e745ada09922dafee887aa6a44fca15eaa16336bceb78e086ef84",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/装备/饰品.md",
+      "sha256": "fcd8dbf0248e4cbf9a5d7817a1a7c0525c9eb5b33f46c9a7539d7ae540d13a59",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/课程/其他课程/烹饪.md",
+      "sha256": "9cc36085fcf9d28f6e2709f908bfa7c3f72ba2fcfd931078865e2a391edd9462",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/课程/基础战技/收尾人操典.md",
+      "sha256": "5fcead49aa61815bdd0d5e5b320fc35367909243dc5da073a3e8be865b43a6ef",
+      "table_count": 5
+    },
+    {
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "sha256": "9ef954bc679ebb1e94938ed0105593a655eb290d32d4c50b053101401afba564",
+      "table_count": 15
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-14b3c3a062db",
+      "path": "docs/资源目录/装备/武器/长柄.md",
+      "line": 3,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        246
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-aa97155a5407",
+      "path": "docs/资源目录/装备/武器/长柄.md",
+      "line": 28,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        246
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2c84fdaaf26a",
+      "path": "docs/资源目录/装备/衣物/外套.md",
+      "line": 3,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        248
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-335ded22d7e6",
+      "path": "docs/资源目录/装备/衣物/外套.md",
+      "line": 27,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        248
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-529fd81057f4",
+      "path": "docs/资源目录/装备/衣物/外套.md",
+      "line": 51,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        248
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b2ef2dcc4cbe",
+      "path": "docs/资源目录/装备/衣物/外套.md",
+      "line": 77,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        248
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-40d8e1b976d4",
+      "path": "docs/资源目录/装备/饰品.md",
+      "line": 3,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        251
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c21ea2156a6e",
+      "path": "docs/资源目录/课程/其他课程/烹饪.md",
+      "line": 3,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        313
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-07ac68a0a9b2",
+      "path": "docs/资源目录/课程/其他课程/烹饪.md",
+      "line": 26,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        313
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-46b0057d0895",
+      "path": "docs/资源目录/课程/其他课程/烹饪.md",
+      "line": 49,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        313
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "markdown-72522db90a90",
+      "path": "docs/资源目录/课程/其他课程/烹饪.md",
+      "line": 74,
+      "rows": 2,
+      "columns": 4,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        313
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-79970bddf73e",
+      "path": "docs/资源目录/课程/基础战技/收尾人操典.md",
+      "line": 2,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        264
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-66ac9a09ac6c",
+      "path": "docs/资源目录/课程/基础战技/收尾人操典.md",
+      "line": 25,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        264
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8bc62efdba29",
+      "path": "docs/资源目录/课程/基础战技/收尾人操典.md",
+      "line": 57,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        264
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8e1eb701175d",
+      "path": "docs/资源目录/课程/基础战技/收尾人操典.md",
+      "line": 84,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        264
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-fab16767e3b6",
+      "path": "docs/资源目录/课程/基础战技/收尾人操典.md",
+      "line": 115,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        264
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2c3575371e7c",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 7,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-98e6a053453d",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 35,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-22804fbb8f98",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 63,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-39c8cbb658c8",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 91,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4231d9961853",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 122,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d8900ac3169e",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 150,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-75ac6871d4e2",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 178,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1b6a087845ef",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 205,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-21583c69be2e",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 234,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-89df3504751d",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 262,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f56d31e57c14",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 288,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ba881f523c87",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 317,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3e12743af59e",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 346,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8370e4ff7f0e",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 377,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-99abbdfdeb33",
+      "path": "docs/资源目录/课程/基础战技/暗巷格斗术.md",
+      "line": 403,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        269
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

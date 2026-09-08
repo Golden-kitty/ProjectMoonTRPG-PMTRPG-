@@ -1,0 +1,52 @@
+.md-typeset .pmtrpg-table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  margin: 1em 0;
+  overflow-x: auto;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.md-typeset .pmtrpg-table th,
+.md-typeset .pmtrpg-table td {
+  min-width: 4rem;
+  padding: 0.65em 0.85em;
+  vertical-align: top;
+  border: 0.05rem solid var(--md-typeset-table-color);
+}
+
+.md-typeset .pmtrpg-table th {
+  font-weight: 700;
+  background: color-mix(in srgb, var(--md-default-fg-color) 7%, transparent);
+}
+
+.md-typeset .pmtrpg-table .align-left {
+  text-align: left;
+}
+
+.md-typeset .pmtrpg-table .align-center {
+  text-align: center;
+}
+
+.md-typeset .pmtrpg-table .align-right {
+  text-align: right;
+}
+
+.md-typeset .pmtrpg-table .cell-bg-green {
+  background-color: green;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .pmtrpg-table {
+    font-size: 0.72rem;
+  }
+
+  .md-typeset .pmtrpg-table th,
+  .md-typeset .pmtrpg-table td {
+    padding: 0.5em 0.65em;
+  }
+}

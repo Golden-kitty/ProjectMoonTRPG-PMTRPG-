@@ -1,0 +1,1277 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-11",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "b5cdfd21e9b85622b231f72c978788c639c0ecbc9ed7beb436301d9e4d543dfe",
+  "table_count": 32,
+  "document_count": 3,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 0,
+  "policy_closed_table_count": 32,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 0,
+    "span": 32,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "medium": 32
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "sha256": "3631b71b53b8ccbe89f3050124a4e4a7e516f222e55e6e4d772d174a11018951",
+      "table_count": 14
+    },
+    {
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "sha256": "2aa2fae4dfb9a38174fc64df2df923e170833fbd4f1426720b0a0c3c476dea0f",
+      "table_count": 9
+    },
+    {
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "sha256": "652190704dc4ee6f759c2b5956aebccb440682d5b422babc84cf435e0d8e521b",
+      "table_count": 9
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-17a6e982d8b2",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 3,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e43bb15abb65",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 29,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-12ca0de329a6",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 56,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-53f81a60f142",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 84,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8ac98ad76eb6",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 114,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c36996e25990",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 144,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3c4ae2142ad1",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 169,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-68d80a420222",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 197,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-64771876e190",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 225,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-9df9a4a96041",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 257,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b884fd94ed27",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 281,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3bb796660d21",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 306,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5a45f7665ac4",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 329,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-45a93146abd7",
+      "path": "docs/资源目录/课程/流派战技/屠夫.md",
+      "line": 354,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        285
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d0ed9b87bb3e",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 3,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d97d074236b9",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 27,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-790c06f4ca8b",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 53,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0cd5711527e4",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 79,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-65bf200a122f",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 105,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-622e27301f02",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 131,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e98bda9ce94e",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 153,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2ec2f6994e2b",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 179,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-301defe370a1",
+      "path": "docs/资源目录/课程/流派战技/暴徒.md",
+      "line": 205,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        291
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2cbb54938667",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 3,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-66ca008dedb1",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 38,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-271f49b3eb69",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 59,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f54da19e2f12",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 86,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-bab42404377f",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 110,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a194d1b443f8",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 136,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0bb68df01416",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 162,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e0947d7dcbf3",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 191,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7ae50162dc42",
+      "path": "docs/资源目录/课程/流派战技/臼齿事务所.md",
+      "line": 215,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        295
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

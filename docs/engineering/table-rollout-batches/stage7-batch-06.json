@@ -1,0 +1,1001 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-06",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "4d8362079553f72839f957eae77aca1d7b30865d2c778af7cf35db1426cb4c93",
+  "table_count": 31,
+  "document_count": 3,
+  "accepted_table_count": 12,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 0,
+  "policy_closed_table_count": 19,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 0,
+    "span": 31,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "medium": 31
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/种族/基本种族.md",
+      "sha256": "e8d0eb293718b5e315a787e606f6f5bfc0f8059df76d9e6391a16a8c9648370c",
+      "table_count": 12
+    },
+    {
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "sha256": "2946e01611578cc5e10a0bf60536ab760566aa863c97edcc99f66b9b27f2868c",
+      "table_count": 6
+    },
+    {
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "sha256": "82fe2635f87ce4f2fdffa6763b6d37beba85e717340b6ac44514e00f9cc0941e",
+      "table_count": 13
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-3c0bd5ac4021",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 3,
+      "rows": 11,
+      "columns": 3,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 11
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-11f25c2134bc",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 50,
+      "rows": 7,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-05ee8bbc555f",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 116,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-99d967ff1da4",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 152,
+      "rows": 5,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-f8d6557f23d4",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 187,
+      "rows": 11,
+      "columns": 3,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 11
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-603a27d4f229",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 234,
+      "rows": 7,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-1c9eeed71e65",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 300,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-8bf1d9eb9607",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 337,
+      "rows": 4,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-ccb1ef7e905d",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 370,
+      "rows": 11,
+      "columns": 3,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 11
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-bae47cf2eeb8",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 418,
+      "rows": 7,
+      "columns": 8,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 8,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-6f1ec1b7a3b3",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 484,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-9f2a1c0d121e",
+      "path": "docs/资源目录/种族/基本种族.md",
+      "line": 520,
+      "rows": 3,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        213
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-f8cb5823c968",
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "line": 5,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        219
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-30802b1e9cca",
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "line": 22,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        219
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b3ca5d4efe8d",
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "line": 38,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        219
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-43e907037d6e",
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "line": 56,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        219
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c9159638591c",
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "line": 74,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        219
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-9a3e35985b5b",
+      "path": "docs/资源目录/能力列表/出身类.md",
+      "line": 93,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        219
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1fa0de289152",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 4,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-9576f51a5863",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 21,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-213aa5bb872b",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 39,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e36fb4c17f01",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 56,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f3028a90163b",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 76,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0bc90177afb0",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 94,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b421487e36e9",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 112,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-abd0661d9c9e",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 130,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a79983cc1f66",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 148,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7b10e222d1c4",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 167,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-57e486921133",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 186,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-cc7af47f311b",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 205,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e813dc5d12e5",
+      "path": "docs/资源目录/能力列表/课程类.md",
+      "line": 224,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        221
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

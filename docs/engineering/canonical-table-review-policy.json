@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "mode": "high-risk-source-only",
+  "confirmed_at": "2026-09-05",
+  "confirmed_by": "user",
+  "directive": "代表性站点、CHM、DOCX、PDF 产物样例通过后不再逐批要求用户审核；原文 HTML 只重点审核高风险表。",
+  "artifact_review_policy": {
+    "representative_pilot": "accepted_by_user",
+    "later_batches": "machine_checks_plus_implementer_visual_sampling",
+    "per_batch_user_review": false
+  },
+  "high_risk_criteria": {
+    "nested_depth_greater_than": 0,
+    "rowspan_greater_than": 1,
+    "columns_at_least": 10,
+    "page_candidate_count_greater_than": 1,
+    "ambiguous_mapping_area_at_least": 80
+  },
+  "criteria_note": "进入队列需满足至少一项：嵌套表、纵向合并、十列及以上超宽表，或具有多个章节页候选且行列面积至少为 80 的大表。已由用户接受或已逐表对照 PDF 修正的表不重复进入。",
+  "source_verified_sets": [
+    {
+      "id": "pdf-confirmed-grid-repairs-20260904",
+      "evidence_record": "docs/engineering/pdf-confirmed-structure-diff.json",
+      "scope_note": "这些表已在严格 canonical 修复阶段逐表对照原 PDF；差异报告保存的是预期的修复前后结构变化，不是未解决失败。",
+      "table_ids": [
+        "html-0cbe14ff449d",
+        "html-2a6f044e9341",
+        "html-3b22d08d5e89",
+        "html-3c0bd5ac4021",
+        "html-4e0308ac37c6",
+        "html-53c891528ef5",
+        "html-659f22fceac2",
+        "html-aa8f8353d441",
+        "html-b8f593c89f4d",
+        "html-ccb1ef7e905d",
+        "html-e151d009dcc3",
+        "html-f8d6557f23d4"
+      ]
+    }
+  ],
+  "status_precedence": [
+    "accepted_by_user",
+    "source_verified_by_pdf_evidence",
+    "source_verified_by_high_risk_review",
+    "high_risk_source_review_required",
+    "closed_by_user_review_policy"
+  ],
+  "review_owner": {
+    "high_risk_source_review_required": "Codex",
+    "user_involvement": "only_if_unresolved_semantic_ambiguity"
+  }
+}

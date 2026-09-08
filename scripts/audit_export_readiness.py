@@ -4,6 +4,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from bs4 import BeautifulSoup
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = REPO_ROOT / "docs"
@@ -30,9 +32,6 @@ HTML_TAG_RE = re.compile(r"</?(?P<tag>\w+)[^>]*>")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$", re.M)
 MD_IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 HTML_IMAGE_RE = re.compile(r"""<img[^>]+src=['"]([^'"]+)['"]""", re.I)
-TABLE_RE = re.compile(r"<table\b[\s\S]*?</table\s*>", re.I)
-
-
 def iter_docs() -> list[tuple[Path, str]]:
     docs: list[tuple[Path, str]] = []
     for path in sorted(DOCS_DIR.rglob("*.md")):
@@ -51,7 +50,15 @@ def analyze_file(path: Path, rel: str) -> dict[str, object]:
     h1_count = sum(1 for m in headings if len(m.group(1)) == 1)
     no_heading = not headings
     no_h1 = bool(headings) and h1_count == 0
-    tables = len(TABLE_RE.findall(text))
+    soup = BeautifulSoup(f"<root>{text}</root>", "html.parser")
+    table_nodes = soup.find_all("table")
+    tables = len(table_nodes)
+    canonical_tables = sum(
+        1
+        for table in table_nodes
+        if "pmtrpg-table" in table.get("class", []) and table.get("data-table-id")
+    )
+    noncanonical_tables = tables - canonical_tables
     nbspace = text.count("\xa0")
     replacement_char = text.count("\ufffd")
 
@@ -65,6 +72,13 @@ def analyze_file(path: Path, rel: str) -> dict[str, object]:
     image_refs.extend(m.group(1) for m in MD_IMAGE_RE.finditer(text))
     image_refs.extend(m.group(1) for m in HTML_IMAGE_RE.finditer(text))
     image_hook_dependent = [src for src in image_refs if src.startswith("../") and "assets/" in src]
+    missing_images: list[str] = []
+    for source in image_refs:
+        if re.match(r"^[a-z]+://", source, re.I) or source.startswith(("data:", "#")):
+            continue
+        clean_source = source.split("#", 1)[0].split("?", 1)[0]
+        if clean_source and not (path.parent / clean_source).resolve().exists():
+            missing_images.append(source)
 
     non_heading_lines = [
         line.strip()
@@ -76,18 +90,21 @@ def analyze_file(path: Path, rel: str) -> dict[str, object]:
     return {
         "rel": rel,
         "tables": tables,
+        "canonical_tables": canonical_tables,
+        "noncanonical_tables": noncanonical_tables,
         "no_heading": no_heading,
         "no_h1": no_h1,
         "nbspace": nbspace,
         "replacement_char": replacement_char,
         "html_tags": html_tags,
         "image_hook_dependent": image_hook_dependent,
+        "missing_images": missing_images,
         "stub": stub,
     }
 
 
 def bucket_file(info: dict[str, object]) -> str | None:
-    if info["tables"] or info["image_hook_dependent"] or info["no_heading"]:
+    if info["noncanonical_tables"] or info["missing_images"] or info["no_heading"]:
         return "A-阻塞导出"
     if info["no_h1"] or info["nbspace"] or info["replacement_char"]:
         return "B-高风险退化"
@@ -115,6 +132,8 @@ def build_report(results: list[dict[str, object]]) -> str:
         if info["tables"]:
             stats["files_with_tables"] += 1
             stats["table_blocks"] += int(info["tables"])
+            stats["canonical_tables"] += int(info["canonical_tables"])
+            stats["noncanonical_tables"] += int(info["noncanonical_tables"])
         if info["no_heading"]:
             stats["no_heading"] += 1
         if info["no_h1"]:
@@ -125,15 +144,21 @@ def build_report(results: list[dict[str, object]]) -> str:
             stats["encoding"] += 1
         if info["image_hook_dependent"]:
             stats["hook_images"] += 1
+            stats["hook_image_refs"] += len(info["image_hook_dependent"])
+        if info["missing_images"]:
+            stats["missing_image_refs"] += len(info["missing_images"])
 
         if rel in SAMPLE_DOCS:
             sample_notes.append(
-                "- `{}`: tables={}, no_heading={}, no_h1={}, hook_image_refs={}, nbspace={}".format(
+                "- `{}`: tables={}, canonical_tables={}, noncanonical_tables={}, no_heading={}, no_h1={}, adapter_resolved_image_refs={}, missing_image_refs={}, nbspace={}".format(
                     rel,
                     info["tables"],
+                    info["canonical_tables"],
+                    info["noncanonical_tables"],
                     info["no_heading"],
                     info["no_h1"],
                     len(info["image_hook_dependent"]),
+                    len(info["missing_images"]),
                     info["nbspace"],
                 )
             )
@@ -146,17 +171,22 @@ def build_report(results: list[dict[str, object]]) -> str:
         f"- 扫描文件数：`{len(results)}`",
         f"- 含 HTML table 的文件：`{stats['files_with_tables']}`",
         f"- HTML table 块数：`{stats['table_blocks']}`",
+        f"- canonical HTML table 块数：`{stats['canonical_tables']}`",
+        f"- 非 canonical HTML table 块数：`{stats['noncanonical_tables']}`",
         f"- 无任何标题的文件：`{stats['no_heading']}`",
         f"- 有标题但无 H1 的文件：`{stats['no_h1']}`",
         f"- 站点空壳页：`{stats['stub']}`",
         f"- 含编码工件的文件：`{stats['encoding']}`",
-        f"- 依赖站点 hook 重写图片路径的文件：`{stats['hook_images']}`",
+        f"- 由分发适配器解析的相对图片引用：`{stats['hook_image_refs']}`",
+        f"- 缺失图片引用：`{stats['missing_image_refs']}`",
         "",
         "## Bucket Policy",
         "",
-        "- `A-阻塞导出`：HTML table、关键图片路径依赖 hook、无标题正文页。",
+        "- `A-阻塞导出`：非 canonical HTML table、缺失图片资源或无标题正文页。",
         "- `B-高风险退化`：无 H1、编码工件、其他会显著影响导出结构但不必然阻塞的项。",
         "- `C-导航空壳`：主要用于站点分组、在 PDF / CHM 中会退化为空白章节的页面。",
+        "- canonical HTML table 是当前统一源表示，由站点、CHM、DOCX、PDF 适配器消费，不再因为使用 HTML 而自动进入阻塞桶。",
+        "- 指向仓库 `assets/` 且文件存在的相对图片由分发适配器解析和复制，不再视为站点 hook 专属依赖。",
         "- 纯站点分组页默认不进入导出书籍正文；若需要进入导出，则必须补最小概览正文。",
         "",
         "## Sample Docs",

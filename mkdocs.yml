@@ -24,9 +24,10 @@ plugins:
   - search
 hooks:
   - scripts/mkdocs_hooks.py
+extra_css:
+  - stylesheets/canonical-tables.css
 markdown_extensions:
   - tables
-  - attr_list
   - md_in_html
   - sane_lists
   - toc:

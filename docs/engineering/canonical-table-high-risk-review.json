@@ -1,0 +1,1558 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "review_mode": "high-risk-source-only",
+  "review_owner": "Codex",
+  "user_review_required_only_for": "unresolved_semantic_ambiguity",
+  "high_risk_criteria": {
+    "nested_depth_greater_than": 0,
+    "rowspan_greater_than": 1,
+    "columns_at_least": 10,
+    "page_candidate_count_greater_than": 1,
+    "ambiguous_mapping_area_at_least": 80
+  },
+  "table_count": 24,
+  "document_count": 17,
+  "reviewed_table_count": 24,
+  "pending_table_count": 0,
+  "tables": [
+    {
+      "id": "html-1790361cb39e",
+      "path": "docs/核心规则/基本规则/等级.md",
+      "line": 11,
+      "rows": 4,
+      "columns": 11,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        15
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=11"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-6d6638bed69c",
+      "path": "docs/创作指南/属性平衡.md",
+      "line": 2,
+      "rows": 22,
+      "columns": 23,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 1,
+          "rowspan": 5
+        },
+        {
+          "row": 12,
+          "colspan": 1,
+          "rowspan": 5
+        },
+        {
+          "row": 17,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 18,
+          "colspan": 1,
+          "rowspan": 5
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        342
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=5",
+        "columns=23"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-1e9c2fc9263c",
+      "path": "docs/核心规则/可选规则/等级晋升变体.md",
+      "line": 13,
+      "rows": 4,
+      "columns": 10,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        110
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=10"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-08f555e92e86",
+      "path": "docs/核心规则/可选规则/等级晋升变体.md",
+      "line": 68,
+      "rows": 4,
+      "columns": 12,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        110
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=12"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-f6958ba1b28c",
+      "path": "docs/核心规则/基本规则/晋升.md",
+      "line": 7,
+      "rows": 8,
+      "columns": 12,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        17
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=12"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-d07d4e9f6624",
+      "path": "docs/核心规则/心灵之光/变格之路.md",
+      "line": 6,
+      "rows": 2,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 1,
+          "rowspan": 2
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        72
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=2"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-29399a3bb2c7",
+      "path": "docs/核心规则/效果/如何使用.md",
+      "line": 5,
+      "rows": 3,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 1,
+          "rowspan": 3
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        108
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-b85688655258",
+      "path": "docs/核心规则/效果/强度表.md",
+      "line": 6,
+      "rows": 10,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 5,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 8,
+          "colspan": 1,
+          "rowspan": 3
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        107
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-dbcc847c56b7",
+      "path": "docs/核心规则/速查图表/经历与晋升一览表.md",
+      "line": 7,
+      "rows": 4,
+      "columns": 11,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        118
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=11"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-024f6ca4cb78",
+      "path": "docs/核心规则/速查图表/经历与晋升一览表.md",
+      "line": 66,
+      "rows": 8,
+      "columns": 12,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        118
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=12"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-0a1f10d22aa8",
+      "path": "docs/资源目录/改造/机体/传闻/侦查型.md",
+      "line": 2,
+      "rows": 13,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 13,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        168,
+        172
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=91"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-4c04222ef893",
+      "path": "docs/资源目录/改造/机体/传闻/堡垒型.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        167,
+        171
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=84"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-069b29169b9a",
+      "path": "docs/资源目录/改造/机体/传闻/强攻型.md",
+      "line": 2,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        166,
+        170
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=84"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-b293619bd3ca",
+      "path": "docs/资源目录/改造/机体/怪谈/侦查型.md",
+      "line": 3,
+      "rows": 14,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 13,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 14,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        168,
+        172
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=98"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-730705d7c89f",
+      "path": "docs/资源目录/改造/机体/怪谈/堡垒型.md",
+      "line": 2,
+      "rows": 14,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 13,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 14,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        167,
+        171
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=98"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-2790cb0afe1a",
+      "path": "docs/资源目录/改造/机体/怪谈/强攻型.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        166,
+        170
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=84"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-5666db891fb4",
+      "path": "docs/资源目录/装备/武器/巨兵.md",
+      "line": 61,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 7,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        230
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=2"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-dc93205acefe",
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "line": 11,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        63
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-714a027e148f",
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "line": 23,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        63
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-a7ec4531de8f",
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "line": 53,
+      "rows": 7,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        63
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-1cd1b60b1b6d",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 6,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 6,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 8,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 10,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-ca176667b32d",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 57,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-41d827e47578",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 87,
+      "rows": 7,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-80e34fa456ff",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 126,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    }
+  ]
+}

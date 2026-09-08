@@ -1,0 +1,2456 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-04",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "d20171bd0d85db1bb30cd086396d44224f8d271e54a20f6f3f175cc2f6fdbb77",
+  "table_count": 31,
+  "document_count": 14,
+  "accepted_table_count": 0,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 6,
+  "policy_closed_table_count": 25,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 0,
+    "span": 31,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "medium": 31
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "sha256": "c272c9404a162120cc7f5119ac59de5a6f19ab3bf7681d2d26383e4ceaab8aa2",
+      "table_count": 6
+    },
+    {
+      "path": "docs/资源目录/强化/纹身/传说/山海异兽.md",
+      "sha256": "1e483059475cd88692752d93d50d3027c52a6f73ecfe69c4d2fb4c28bafa4354",
+      "table_count": 3
+    },
+    {
+      "path": "docs/资源目录/改造/机体/传闻/侦查型.md",
+      "sha256": "193a6116330d54d1ac6188df77e57cc2258cf3615d89af8a97796baa2e06636a",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/传闻/堡垒型.md",
+      "sha256": "958efcc7700a2dc5df81fa367b329565f0b8bad9c59df9ba27e8f8ec33529458",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/传闻/强攻型.md",
+      "sha256": "ecaa83a431297c909280e05af0c1db5b4f5256343fe2c159942a24bd18adb4b3",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/传闻/火力型.md",
+      "sha256": "a13e989a9e83ec742d9bf3b732987f9c614ff1dbc4242d9156261d94defc0279",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/传闻/通用型.md",
+      "sha256": "28fbecca81a51e81d3eb657b4cdb969ca71b90a92fd6e423696335b1a38dda32",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/怪谈/侦查型.md",
+      "sha256": "f199b282c636a5956e1a00ff0987c967706d3afc4c2e36a4068a9f154dc988aa",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/怪谈/堡垒型.md",
+      "sha256": "0ed04dc5a40440a990557565025ff8de891edf996102b9d3dbb63ee3d065c346",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/机体/怪谈/强攻型.md",
+      "sha256": "a79e93029392fb6e360d17d80841202ef132b5d94bc59762398affd0b12df95c",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/部件/中型.md",
+      "sha256": "58f1c725319e9287187073045d909dac531ec2720aaab4b03d62fc19d3c501f2",
+      "table_count": 4
+    },
+    {
+      "path": "docs/资源目录/改造/部件/大型.md",
+      "sha256": "82ae8e495bb941740c48791e293f925b545db44042037fb202806ea235715c0a",
+      "table_count": 1
+    },
+    {
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "sha256": "86700943242fb7172528b3ddf143441ffdc485792053bb0aa45e48dc76dd8e62",
+      "table_count": 8
+    },
+    {
+      "path": "docs/资源目录/改造/部件/怪谈/中型.md",
+      "sha256": "913e41b0647f9ac8020d3efaec7abca8fbe9e31d96702b15ce6100cb02dc04c3",
+      "table_count": 1
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-a95225141f2a",
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "line": 3,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        158
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3e8b66ef5840",
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "line": 24,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        158
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-fa2f17251f31",
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "line": 45,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        158
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c53b54a0a94f",
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "line": 64,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        158
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8dc425864553",
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "line": 85,
+      "rows": 6,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        158
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4132ca0229dd",
+      "path": "docs/资源目录/强化/纹身/传说/墨染云影.md",
+      "line": 108,
+      "rows": 6,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        158
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1d12d06713d5",
+      "path": "docs/资源目录/强化/纹身/传说/山海异兽.md",
+      "line": 3,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        160
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-da12fa62391b",
+      "path": "docs/资源目录/强化/纹身/传说/山海异兽.md",
+      "line": 29,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        160
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1f1fe74bffb5",
+      "path": "docs/资源目录/强化/纹身/传说/山海异兽.md",
+      "line": 56,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        160
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0a1f10d22aa8",
+      "path": "docs/资源目录/改造/机体/传闻/侦查型.md",
+      "line": 2,
+      "rows": 13,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 13,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        168,
+        172
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=91"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-4c04222ef893",
+      "path": "docs/资源目录/改造/机体/传闻/堡垒型.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        167,
+        171
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=84"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-069b29169b9a",
+      "path": "docs/资源目录/改造/机体/传闻/强攻型.md",
+      "line": 2,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        166,
+        170
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=84"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-4a29a0a8b39f",
+      "path": "docs/资源目录/改造/机体/传闻/火力型.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        165
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-434dab1c9173",
+      "path": "docs/资源目录/改造/机体/传闻/通用型.md",
+      "line": 2,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        164
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b293619bd3ca",
+      "path": "docs/资源目录/改造/机体/怪谈/侦查型.md",
+      "line": 3,
+      "rows": 14,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 13,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 14,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        168,
+        172
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=98"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-730705d7c89f",
+      "path": "docs/资源目录/改造/机体/怪谈/堡垒型.md",
+      "line": 2,
+      "rows": 14,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 13,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 14,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        167,
+        171
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=98"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-2790cb0afe1a",
+      "path": "docs/资源目录/改造/机体/怪谈/强攻型.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        166,
+        170
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "ambiguous_page_candidates=2,area=84"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-75b5b2943f82",
+      "path": "docs/资源目录/改造/部件/中型.md",
+      "line": 2,
+      "rows": 10,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        178,
+        187
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-6e2be4766564",
+      "path": "docs/资源目录/改造/部件/中型.md",
+      "line": 63,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        178,
+        187
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-d04d9ed108b1",
+      "path": "docs/资源目录/改造/部件/中型.md",
+      "line": 90,
+      "rows": 10,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        178,
+        187
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e3005849e7d7",
+      "path": "docs/资源目录/改造/部件/中型.md",
+      "line": 153,
+      "rows": 10,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        178,
+        187
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-157c897b1d0f",
+      "path": "docs/资源目录/改造/部件/大型.md",
+      "line": 3,
+      "rows": 10,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        181
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-2f0d77f44ea8",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 3,
+      "rows": 10,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-05288a667a14",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 36,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-fafe13bd9852",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 55,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-98de92fce1f1",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 74,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-debee3321a98",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 93,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f2a8972778e6",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 112,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3dc4c4f64ddb",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 138,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c2e5da6e8268",
+      "path": "docs/资源目录/改造/部件/小型.md",
+      "line": 158,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        175,
+        185
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-5cc1f6bc679c",
+      "path": "docs/资源目录/改造/部件/怪谈/中型.md",
+      "line": 3,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        178,
+        187
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

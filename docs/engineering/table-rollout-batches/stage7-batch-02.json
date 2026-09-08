@@ -1,0 +1,1728 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-02",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "b44f75e29be720b0eebcf8b15fa11601ea9470b1ea7f64a1369bc987af03f900",
+  "table_count": 31,
+  "document_count": 7,
+  "accepted_table_count": 2,
+  "source_verified_table_count": 1,
+  "high_risk_reviewed_table_count": 5,
+  "policy_closed_table_count": 23,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 6,
+    "span": 25,
+    "image": 0,
+    "special": 0
+  },
+  "risk_counts": {
+    "low": 6,
+    "medium": 25
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/创作指南/具现化特性设计.md",
+      "sha256": "062d928107ea456b21b88ed4f5d9e0ad72d11d5f1d5591588c3c7fdd29ba3d9a",
+      "table_count": 2
+    },
+    {
+      "path": "docs/创作指南/属性平衡.md",
+      "sha256": "6d5bb656b93568f1dacfb42ad0b62a418b806b9e47c8a2bb2d4a6c00e7839895",
+      "table_count": 1
+    },
+    {
+      "path": "docs/创作指南/战技平衡.md",
+      "sha256": "34b780d40b094217cc4d90dfe4511ceeddb035df7da521f9e6110b86056a3c0d",
+      "table_count": 2
+    },
+    {
+      "path": "docs/创作指南/资源设计表格.md",
+      "sha256": "e4e85de02cb359a41e1d0c7a5e9e3f8f3993db3e98c8833f3da3d8a5cca22eb4",
+      "table_count": 19
+    },
+    {
+      "path": "docs/核心规则/可选规则/等级晋升变体.md",
+      "sha256": "ea4baafb5d3f17625bd706ebd8135860d96eeddc7d26c5efe8b9b7f549af6f25",
+      "table_count": 2
+    },
+    {
+      "path": "docs/核心规则/基本规则/晋升.md",
+      "sha256": "a9827076d8c9667998692df613f0faaffa20fa5da8870bcc5ac936aadebc3019",
+      "table_count": 1
+    },
+    {
+      "path": "docs/核心规则/心灵之光/变格之路.md",
+      "sha256": "d00f3b2023bc4939f13394700500dcfaeeeb39292050a2bd211478e6b12acd70",
+      "table_count": 4
+    }
+  ],
+  "tables": [
+    {
+      "id": "markdown-7875cb606e29",
+      "path": "docs/创作指南/具现化特性设计.md",
+      "line": 13,
+      "rows": 6,
+      "columns": 3,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        333
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-aa8f8353d441",
+      "path": "docs/创作指南/具现化特性设计.md",
+      "line": 75,
+      "rows": 6,
+      "columns": 6,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        333
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-6d6638bed69c",
+      "path": "docs/创作指南/属性平衡.md",
+      "line": 2,
+      "rows": 22,
+      "columns": 23,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 1,
+          "rowspan": 5
+        },
+        {
+          "row": 12,
+          "colspan": 1,
+          "rowspan": 5
+        },
+        {
+          "row": 17,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 18,
+          "colspan": 1,
+          "rowspan": 5
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        342
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=5",
+        "columns=23"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-fd5bdc4820b5",
+      "path": "docs/创作指南/战技平衡.md",
+      "line": 5,
+      "rows": 8,
+      "columns": 9,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        316
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "markdown-7eba102a2829",
+      "path": "docs/创作指南/战技平衡.md",
+      "line": 17,
+      "rows": 8,
+      "columns": 9,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        316
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b9e076f5d34c",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 6,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-3fbe308dc883",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 37,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ba19fcbba578",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 66,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-79fcca39355d",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 95,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1cbb320e0183",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 124,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b94feb4150c0",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 147,
+      "rows": 4,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f8143c7a9542",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 162,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-745be3d39b3d",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 185,
+      "rows": 8,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f78b07291aca",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 211,
+      "rows": 5,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e83cf81c34cd",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 229,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4a215cfbfd60",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 268,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-87585775c5e7",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 291,
+      "rows": 12,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 10,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 11,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 12,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1b50ae0a3c4d",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 331,
+      "rows": 9,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-dd8199cb6f9d",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 360,
+      "rows": 7,
+      "columns": 7,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 7,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b7817717b1e5",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 383,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-659f22fceac2",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 405,
+      "rows": 6,
+      "columns": 6,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 6,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 5,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 5,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "source_verified_by_pdf_evidence",
+      "high_risk_reasons": [],
+      "evidence_set": "pdf-confirmed-grid-repairs-20260904"
+    },
+    {
+      "id": "html-dfe1008abb81",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 426,
+      "rows": 9,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-44a217394df9",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 457,
+      "rows": 5,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 5,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-103268628891",
+      "path": "docs/创作指南/资源设计表格.md",
+      "line": 476,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        335
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1e9c2fc9263c",
+      "path": "docs/核心规则/可选规则/等级晋升变体.md",
+      "line": 13,
+      "rows": 4,
+      "columns": 10,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        110
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=10"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-08f555e92e86",
+      "path": "docs/核心规则/可选规则/等级晋升变体.md",
+      "line": 68,
+      "rows": 4,
+      "columns": 12,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        110
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=12"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-f6958ba1b28c",
+      "path": "docs/核心规则/基本规则/晋升.md",
+      "line": 7,
+      "rows": 8,
+      "columns": 12,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        17
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "columns=12"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-d07d4e9f6624",
+      "path": "docs/核心规则/心灵之光/变格之路.md",
+      "line": 6,
+      "rows": 2,
+      "columns": 5,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 1,
+          "rowspan": 2
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        72
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=2"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-a86bed70121e",
+      "path": "docs/核心规则/心灵之光/变格之路.md",
+      "line": 24,
+      "rows": 2,
+      "columns": 6,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        72
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-6c8cc01baf1c",
+      "path": "docs/核心规则/心灵之光/变格之路.md",
+      "line": 61,
+      "rows": 9,
+      "columns": 4,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        72
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-1a404021c701",
+      "path": "docs/核心规则/心灵之光/变格之路.md",
+      "line": 131,
+      "rows": 2,
+      "columns": 6,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        72
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "reviewed_sets": [
+    {
+      "id": "canonical-table-high-risk-source-review-20260905",
+      "reviewed_at": "2026-09-05",
+      "reviewed_by": "Codex",
+      "review_record": "docs/acceptance/canonical-table-high-risk-source-review.md",
+      "sources": [
+        "originFab/Project Moon Trpg Rule Book V1.8.4.pdf",
+        "originFab/Project Moon Trpg Rule Book V1.8.4.chm"
+      ],
+      "scope_note": "逐项核对 24 张高风险 canonical HTML 表。PDF 用于可见布局、跨页关系和数值核对；原 CHM 解包内容用于补足 PDF 横向裁切区域及确认完整文本。对当前规则中成体系的动作/类型、评级和突刺等术语更新予以保留，不把旧版 PDF 直接覆盖到当前规则。",
+      "documents": [
+        {
+          "path": "docs/创作指南/属性平衡.md",
+          "sha256": "6d5bb656b93568f1dacfb42ad0b62a418b806b9e47c8a2bb2d4a6c00e7839895"
+        },
+        {
+          "path": "docs/核心规则/基本规则/等级.md",
+          "sha256": "a51bf4a16d8a690cf44da66f95195bf7749680cd78d4c6578b84adfc811f83ba"
+        },
+        {
+          "path": "docs/核心规则/基本规则/晋升.md",
+          "sha256": "a9827076d8c9667998692df613f0faaffa20fa5da8870bcc5ac936aadebc3019"
+        },
+        {
+          "path": "docs/核心规则/可选规则/等级晋升变体.md",
+          "sha256": "ea4baafb5d3f17625bd706ebd8135860d96eeddc7d26c5efe8b9b7f549af6f25"
+        },
+        {
+          "path": "docs/核心规则/速查图表/检定一览表.md",
+          "sha256": "3185e66621ffc94d830bdd047b2ccdaaa9bb3c3d46ef4e26d45e6c0cc314e8ff"
+        },
+        {
+          "path": "docs/核心规则/速查图表/经历与晋升一览表.md",
+          "sha256": "b1e008de83dea6ab1a70b1941455e8c2f8d31e4c9eefaa56dce9a1b15a9bb4cc"
+        },
+        {
+          "path": "docs/核心规则/效果/强度表.md",
+          "sha256": "5921baa5a6d8c1422950ad9e166892f24eb6b8fa087e634a03466b9cf94945bd"
+        },
+        {
+          "path": "docs/核心规则/效果/如何使用.md",
+          "sha256": "dabc85ed6c195b37b75e49566852c45b6795728b0b5ff7a3b4415a82fa332fce"
+        },
+        {
+          "path": "docs/核心规则/心灵之光/变格之路.md",
+          "sha256": "d00f3b2023bc4939f13394700500dcfaeeeb39292050a2bd211478e6b12acd70"
+        },
+        {
+          "path": "docs/核心规则/心灵之光/同调.md",
+          "sha256": "cc1a89d85adf630ccbf3ebc14f2be3b0e6e0d8bafd5c518cbed4116c3c7093ea"
+        },
+        {
+          "path": "docs/资源目录/改造/机体/传闻/堡垒型.md",
+          "sha256": "958efcc7700a2dc5df81fa367b329565f0b8bad9c59df9ba27e8f8ec33529458"
+        },
+        {
+          "path": "docs/资源目录/改造/机体/传闻/强攻型.md",
+          "sha256": "ecaa83a431297c909280e05af0c1db5b4f5256343fe2c159942a24bd18adb4b3"
+        },
+        {
+          "path": "docs/资源目录/改造/机体/传闻/侦查型.md",
+          "sha256": "193a6116330d54d1ac6188df77e57cc2258cf3615d89af8a97796baa2e06636a"
+        },
+        {
+          "path": "docs/资源目录/改造/机体/怪谈/堡垒型.md",
+          "sha256": "0ed04dc5a40440a990557565025ff8de891edf996102b9d3dbb63ee3d065c346"
+        },
+        {
+          "path": "docs/资源目录/改造/机体/怪谈/强攻型.md",
+          "sha256": "a79e93029392fb6e360d17d80841202ef132b5d94bc59762398affd0b12df95c"
+        },
+        {
+          "path": "docs/资源目录/改造/机体/怪谈/侦查型.md",
+          "sha256": "f199b282c636a5956e1a00ff0987c967706d3afc4c2e36a4068a9f154dc988aa"
+        },
+        {
+          "path": "docs/资源目录/装备/武器/巨兵.md",
+          "sha256": "50110e490b99b23a390e408f96365623423eba31c12ff5e809d4f698b9d45169"
+        }
+      ],
+      "table_ids": [
+        "html-1790361cb39e",
+        "html-6d6638bed69c",
+        "html-1e9c2fc9263c",
+        "html-08f555e92e86",
+        "html-f6958ba1b28c",
+        "html-d07d4e9f6624",
+        "html-29399a3bb2c7",
+        "html-b85688655258",
+        "html-dbcc847c56b7",
+        "html-024f6ca4cb78",
+        "html-0a1f10d22aa8",
+        "html-4c04222ef893",
+        "html-069b29169b9a",
+        "html-b293619bd3ca",
+        "html-730705d7c89f",
+        "html-2790cb0afe1a",
+        "html-5666db891fb4",
+        "html-dc93205acefe",
+        "html-714a027e148f",
+        "html-a7ec4531de8f",
+        "html-1cd1b60b1b6d",
+        "html-ca176667b32d",
+        "html-41d827e47578",
+        "html-80e34fa456ff"
+      ],
+      "table_sources": {
+        "html-1790361cb39e": [15],
+        "html-6d6638bed69c": [342],
+        "html-1e9c2fc9263c": [110],
+        "html-08f555e92e86": [110, 111],
+        "html-f6958ba1b28c": [17],
+        "html-d07d4e9f6624": [72],
+        "html-29399a3bb2c7": [108],
+        "html-b85688655258": [107],
+        "html-dbcc847c56b7": [118],
+        "html-024f6ca4cb78": [118],
+        "html-0a1f10d22aa8": [168],
+        "html-4c04222ef893": [167],
+        "html-069b29169b9a": [166],
+        "html-b293619bd3ca": [172],
+        "html-730705d7c89f": [171],
+        "html-2790cb0afe1a": [170],
+        "html-5666db891fb4": [230, 231],
+        "html-dc93205acefe": [63, 64],
+        "html-714a027e148f": [63],
+        "html-a7ec4531de8f": [63],
+        "html-1cd1b60b1b6d": [116, 117],
+        "html-ca176667b32d": [116],
+        "html-41d827e47578": [116],
+        "html-80e34fa456ff": [116, 117]
+      }
+    }
+  ]
+}

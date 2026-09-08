@@ -1,0 +1,1390 @@
+{
+  "schema_version": 1,
+  "batch_id": "stage7-batch-12",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "source_snapshot_sha256": "2f8620407018a6a9113bdcdf31065394534bf6c67740b2b9580bb2b198febb40",
+  "table_count": 34,
+  "document_count": 6,
+  "accepted_table_count": 3,
+  "source_verified_table_count": 0,
+  "high_risk_reviewed_table_count": 7,
+  "policy_closed_table_count": 24,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "feature_counts": {
+    "simple": 1,
+    "span": 26,
+    "image": 1,
+    "special": 6
+  },
+  "risk_counts": {
+    "high": 7,
+    "low": 1,
+    "medium": 26
+  },
+  "machine_gates": {
+    "canonical": "PASS",
+    "structure_regression": "PASS",
+    "rendered_dom": "PASS",
+    "distribution_pilot": "ACCEPTED_BY_USER"
+  },
+  "semantic_review_status": "closed_by_policy_or_evidence",
+  "independent_commit_status": "pending_clean_batch_boundary",
+  "rollback_checkpoint": {
+    "kind": "baseline_commit_plus_content_hashes",
+    "recoverability": "drift_detection_only_until_independent_commit",
+    "source_changed_by_generator": false
+  },
+  "documents": [
+    {
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "sha256": "7a5178b0f6a27c0d969990f0df7fe8ea42520353ed151135034372da3b7e54f3",
+      "table_count": 13
+    },
+    {
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "sha256": "b4f39e4308f8eb4802f8eb99b195730727b2899e3de7cee1a76b4062b2bc937f",
+      "table_count": 10
+    },
+    {
+      "path": "docs/核心规则/速查图表/技能列表.md",
+      "sha256": "97ed8722b3d59b6a014f0819d5738a0f197bf35cf4e57208bd88c339d7c5e89b",
+      "table_count": 1
+    },
+    {
+      "path": "docs/核心规则/心灵之光/压迫.md",
+      "sha256": "ba037c958841421e40800ce2d1839099877c67e41d81eef95001108fc92b8ae4",
+      "table_count": 2
+    },
+    {
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "sha256": "cc1a89d85adf630ccbf3ebc14f2be3b0e6e0d8bafd5c518cbed4116c3c7093ea",
+      "table_count": 3
+    },
+    {
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "sha256": "3185e66621ffc94d830bdd047b2ccdaaa9bb3c3d46ef4e26d45e6c0cc314e8ff",
+      "table_count": 5
+    }
+  ],
+  "tables": [
+    {
+      "id": "html-93d8be9e0e5c",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 3,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-4d35f4e9f8f8",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 31,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a78fd93d644f",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 57,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-58440c6a0d05",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 83,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-16fc5d9c3477",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 108,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-da175b7cc50c",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 133,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-52e79f516319",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 157,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b42777586e4b",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 186,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-8cba158ef5c2",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 213,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f650df9cd7c2",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 239,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-0f6f41f1685f",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 268,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-9bde45464277",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 297,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ba941d8383fe",
+      "path": "docs/资源目录/课程/流派战技/街灯事务所.md",
+      "line": 322,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        298
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e3c3330d5ea3",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 2,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-7042859c97b9",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 41,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-ff735cd77048",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 65,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-c9f1238fad3c",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 89,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-b2b7406c4141",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 115,
+      "rows": 6,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 2,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 6,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-f179616dcf83",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 151,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a4f8ea20e9f5",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 180,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-a6b857f8838d",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 204,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e32118fe6c2e",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 228,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-63abb020e6c1",
+      "path": "docs/资源目录/课程/流派战技/锈链格斗技.md",
+      "line": 257,
+      "rows": 7,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 4,
+          "rowspan": 1
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 7,
+          "colspan": 4,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        303
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    },
+    {
+      "id": "html-e151d009dcc3",
+      "path": "docs/核心规则/速查图表/技能列表.md",
+      "line": 10,
+      "rows": 49,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "image",
+      "span_signature": [
+        {
+          "row": 1,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 8,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 14,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 21,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 29,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 37,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 42,
+          "colspan": 2,
+          "rowspan": 1
+        },
+        {
+          "row": 46,
+          "colspan": 2,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image002.jpg",
+          "alt": "黑桃"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image002.jpg",
+          "alt": "黑桃"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image002.jpg",
+          "alt": "黑桃"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image006.jpg",
+          "alt": "方块"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image002.jpg",
+          "alt": "黑桃"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image006.jpg",
+          "alt": "方块"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image002.jpg",
+          "alt": "黑桃"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image004.jpg",
+          "alt": "红心"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image006.jpg",
+          "alt": "方块"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        },
+        {
+          "src": "../../../assets/chm/核心规则/速查图表/技能列表.files/image008.jpg",
+          "alt": "梅花"
+        }
+      ],
+      "source_page_candidates": [
+        119
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-965ebc2f6715",
+      "path": "docs/核心规则/心灵之光/压迫.md",
+      "line": 11,
+      "rows": 3,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 3,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        65
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-999d3fb914d0",
+      "path": "docs/核心规则/心灵之光/压迫.md",
+      "line": 23,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        65
+      ],
+      "review_status": "accepted_by_user",
+      "high_risk_reasons": [],
+      "acceptance_set": "canonical-table-pilot-20260905"
+    },
+    {
+      "id": "html-dc93205acefe",
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "line": 11,
+      "rows": 4,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 2,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 4,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        63
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-714a027e148f",
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "line": 23,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        63
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-a7ec4531de8f",
+      "path": "docs/核心规则/心灵之光/同调.md",
+      "line": 53,
+      "rows": 7,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        63
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-1cd1b60b1b6d",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 3,
+      "rows": 12,
+      "columns": 4,
+      "risk": "medium",
+      "feature_tier": "span",
+      "span_signature": [
+        {
+          "row": 6,
+          "colspan": 1,
+          "rowspan": 3
+        },
+        {
+          "row": 6,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 6,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 8,
+          "colspan": 3,
+          "rowspan": 1
+        },
+        {
+          "row": 9,
+          "colspan": 1,
+          "rowspan": 2
+        },
+        {
+          "row": 10,
+          "colspan": 3,
+          "rowspan": 1
+        }
+      ],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "rowspan=3"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-ca176667b32d",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 57,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-41d827e47578",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 87,
+      "rows": 7,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "html-80e34fa456ff",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 126,
+      "rows": 6,
+      "columns": 2,
+      "risk": "high",
+      "feature_tier": "special",
+      "span_signature": [],
+      "nested_depth": 1,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "source_verified_by_high_risk_review",
+      "high_risk_reasons": [
+        "nested_depth=1"
+      ],
+      "evidence_set": "canonical-table-high-risk-source-review-20260905"
+    },
+    {
+      "id": "markdown-9836334f888a",
+      "path": "docs/核心规则/速查图表/检定一览表.md",
+      "line": 173,
+      "rows": 6,
+      "columns": 4,
+      "risk": "low",
+      "feature_tier": "simple",
+      "span_signature": [],
+      "nested_depth": 0,
+      "images": [],
+      "source_page_candidates": [
+        116
+      ],
+      "review_status": "closed_by_user_review_policy",
+      "high_risk_reasons": []
+    }
+  ]
+}

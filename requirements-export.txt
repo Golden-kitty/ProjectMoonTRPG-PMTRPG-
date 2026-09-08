@@ -1,2 +1,10 @@
-# Optional local environment for export-readiness sample verification
-reportlab
+# Export adapters and structural/PDF artifact verification.
+-r requirements-site.txt
+beautifulsoup4>=4.12,<5
+python-docx>=1.1,<2
+Pillow>=10,<13
+PyMuPDF>=1.24,<2
+# Retained only for historical adapter tests; delivery PDF uses Chromium.
+reportlab>=4,<5
+# System dependencies: Chromium (PDF), HTML Help Workshop (CHM),
+# Microsoft Word or LibreOffice (DOCX visual verification).

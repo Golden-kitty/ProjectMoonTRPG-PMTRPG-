@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "generated_by": "scripts/generate_table_rollout_batches.py",
+  "stage7_status": "IN_PROGRESS",
+  "baseline_commit": "d3fc747d6ad36c0d8cba61fda37d19246482bfe3",
+  "inventory_sha256": "06da5fc246057a76353fd14024819c7b8dbbc468fbf60832a5c203543c46a274",
+  "expected_table_count": 370,
+  "unique_table_count": 370,
+  "document_count": 92,
+  "duplicate_document_count": 0,
+  "accepted_table_count": 19,
+  "source_verified_table_count": 7,
+  "high_risk_reviewed_table_count": 24,
+  "policy_closed_table_count": 320,
+  "high_risk_review_table_count": 0,
+  "pending_table_count": 0,
+  "batch_count": 12,
+  "minimum_batch_size": 27,
+  "maximum_batch_size": 34,
+  "batch_size_policy": {
+    "minimum": 20,
+    "maximum": 40,
+    "target": 30
+  },
+  "batches": [
+    {
+      "batch_id": "stage7-batch-01",
+      "table_count": 30,
+      "document_count": 14,
+      "accepted_table_count": 2,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 1,
+      "policy_closed_table_count": 27,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 30,
+        "span": 0,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "low": 30
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-02",
+      "table_count": 31,
+      "document_count": 7,
+      "accepted_table_count": 2,
+      "source_verified_table_count": 1,
+      "high_risk_reviewed_table_count": 5,
+      "policy_closed_table_count": 23,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 6,
+        "span": 25,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "low": 6,
+        "medium": 25
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-03",
+      "table_count": 28,
+      "document_count": 11,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 6,
+      "high_risk_reviewed_table_count": 4,
+      "policy_closed_table_count": 18,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 3,
+        "span": 25,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "low": 3,
+        "medium": 25
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-04",
+      "table_count": 31,
+      "document_count": 14,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 6,
+      "policy_closed_table_count": 25,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 0,
+        "span": 31,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "medium": 31
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-05",
+      "table_count": 32,
+      "document_count": 13,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 0,
+      "policy_closed_table_count": 32,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 0,
+        "span": 32,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "medium": 32
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-06",
+      "table_count": 31,
+      "document_count": 3,
+      "accepted_table_count": 12,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 0,
+      "policy_closed_table_count": 19,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 0,
+        "span": 31,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "medium": 31
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-07",
+      "table_count": 33,
+      "document_count": 8,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 1,
+      "policy_closed_table_count": 32,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 0,
+        "span": 33,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "medium": 33
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-08",
+      "table_count": 31,
+      "document_count": 6,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 0,
+      "policy_closed_table_count": 31,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 1,
+        "span": 30,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "low": 1,
+        "medium": 30
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-09",
+      "table_count": 27,
+      "document_count": 4,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 0,
+      "policy_closed_table_count": 27,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 0,
+        "span": 27,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "medium": 27
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-10",
+      "table_count": 30,
+      "document_count": 3,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 0,
+      "policy_closed_table_count": 30,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 1,
+        "span": 29,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "low": 1,
+        "medium": 29
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-11",
+      "table_count": 32,
+      "document_count": 3,
+      "accepted_table_count": 0,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 0,
+      "policy_closed_table_count": 32,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 0,
+        "span": 32,
+        "image": 0,
+        "special": 0
+      },
+      "risk_counts": {
+        "medium": 32
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    },
+    {
+      "batch_id": "stage7-batch-12",
+      "table_count": 34,
+      "document_count": 6,
+      "accepted_table_count": 3,
+      "source_verified_table_count": 0,
+      "high_risk_reviewed_table_count": 7,
+      "policy_closed_table_count": 24,
+      "high_risk_review_table_count": 0,
+      "pending_table_count": 0,
+      "feature_counts": {
+        "simple": 1,
+        "span": 26,
+        "image": 1,
+        "special": 6
+      },
+      "risk_counts": {
+        "high": 7,
+        "low": 1,
+        "medium": 26
+      },
+      "semantic_review_status": "closed_by_policy_or_evidence",
+      "independent_commit_status": "pending_clean_batch_boundary"
+    }
+  ]
+}
