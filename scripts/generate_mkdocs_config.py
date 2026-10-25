@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -251,6 +252,11 @@ def render_nav(nodes: list[NavEntry], indent: int = 2) -> list[str]:
 
 
 def build_config(nav_lines: list[str]) -> str:
+    def versioned_asset(path: str) -> str:
+        asset = REPO_ROOT / "docs" / path
+        revision = hashlib.sha256(asset.read_bytes()).hexdigest()[:12]
+        return f"{path}?v={revision}"
+
     exclude_docs = "\n".join(
         [
             "acceptance/**",
@@ -276,6 +282,12 @@ def build_config(nav_lines: list[str]) -> str:
         "theme:",
         "  name: material",
         "  language: zh",
+        "  custom_dir: overrides",
+        "  font: false",
+        "  logo: assets/site/mark.svg",
+        "  favicon: assets/site/mark.svg",
+        "  palette:",
+        "    scheme: slate",
         "  features:",
         "    - navigation.expand",
         "    - navigation.footer",
@@ -292,6 +304,9 @@ def build_config(nav_lines: list[str]) -> str:
         "  - scripts/mkdocs_hooks.py",
         "extra_css:",
         "  - stylesheets/canonical-tables.css",
+        f"  - {versioned_asset('stylesheets/reader-site.css')}",
+        "extra_javascript:",
+        f"  - {versioned_asset('javascripts/reader-site.js')}",
         "markdown_extensions:",
         "  - tables",
         "  - md_in_html",

@@ -6,3 +6,5 @@ scripts/*.py text eol=lf
 tests/*.py text eol=lf
 *.yml text eol=lf
 *.txt text eol=lf
+# This immutable reference is checked against a byte-exact SHA-256 manifest.
+assets/chm/presentation-v184.json -text whitespace=cr-at-eol

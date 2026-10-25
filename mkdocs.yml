@@ -10,6 +10,12 @@ strict: true
 theme:
   name: material
   language: zh
+  custom_dir: overrides
+  font: false
+  logo: assets/site/mark.svg
+  favicon: assets/site/mark.svg
+  palette:
+    scheme: slate
   features:
     - navigation.expand
     - navigation.footer
@@ -26,6 +32,9 @@ hooks:
   - scripts/mkdocs_hooks.py
 extra_css:
   - stylesheets/canonical-tables.css
+  - stylesheets/reader-site.css?v=c83ef18171a6
+extra_javascript:
+  - javascripts/reader-site.js?v=1e63e793e87d
 markdown_extensions:
   - tables
   - md_in_html

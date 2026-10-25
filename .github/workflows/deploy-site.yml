@@ -33,8 +33,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-site.txt
 
+      - name: Verify content presentation adapter
+        run: python -m unittest discover -s tests -p test_site_content.py -v
+
       - name: Build site
         run: python scripts/build_site.py build
+
+      - name: Verify rendered table structure before publishing
+        run: python scripts/validate_rendered_tables.py --report output/ci/rendered-table-audit.json
+
+      - name: Verify site theme resources, navigation and semantic colours
+        run: python scripts/verify_site_theme.py --no-history --report output/ci/site-theme-audit.json
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3

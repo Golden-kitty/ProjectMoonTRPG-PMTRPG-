@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="theme-color" content="#151715">
+{% endblock %}
+
+{% block content %}
+  {% if page and page.file.src_uri == "PM_TRPG.md" %}
+    {% include "partials/reader-home.html" %}
+  {% else %}
+    <div class="pmtrpg-source-content">
+      {% include "partials/content.html" %}
+    </div>
+  {% endif %}
+{% endblock %}
+
+{% block footer %}
+  <div class="pm-reading-progress" aria-hidden="true"><span></span></div>
+  <button class="pm-back-top" type="button" aria-label="回到页首" hidden>
+    <span aria-hidden="true">↑</span><span>页首</span>
+  </button>
+  {{ super() }}
+{% endblock %}
